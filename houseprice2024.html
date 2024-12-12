@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1bd4162c3b36f1eec887af0f910791a6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1bd4162c3b36f1eec887af0f910791a6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1bd4162c3b36f1eec887af0f910791a6 = L.map(
+                "map_1bd4162c3b36f1eec887af0f910791a6",
+                {
+                    center: [32.78990682135675, -86.82778271419518],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9d4551765419c3c00cbbb2f857249888 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1bd4162c3b36f1eec887af0f910791a6);
+        
+    
+            var feature_group_c9e878be00284d3b23f4eccb3d6690c6 = L.featureGroup(
+                {}
+            ).addTo(map_1bd4162c3b36f1eec887af0f910791a6);
+        
+    
+            var marker_129d44a5771d60460e8a3935f60e4550 = L.marker(
+                [32.78990682135675, -86.82778271419518],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_333739cc67e84866b0a13a6f0f0d1777 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_129d44a5771d60460e8a3935f60e4550.setIcon(icon_333739cc67e84866b0a13a6f0f0d1777);
+        
+    
+        var popup_8a96ab98f172292c317250e5c926f810 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aa956e30350c2e308770aa9c6e6833e = $(`<div id="html_3aa956e30350c2e308770aa9c6e6833e" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>277000<br><strong>House Area sqft:</strong>1566</div>`)[0];
+                popup_8a96ab98f172292c317250e5c926f810.setContent(html_3aa956e30350c2e308770aa9c6e6833e);
+            
+        
+
+        marker_129d44a5771d60460e8a3935f60e4550.bindPopup(popup_8a96ab98f172292c317250e5c926f810)
+        ;
+
+        
+    
+    
+            var marker_0022f4218e758cb94f30babb0439638c = L.marker(
+                [64.2204189994081, -152.54268949281357],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_2613ea6fe0814352d18f889715030d6d = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0022f4218e758cb94f30babb0439638c.setIcon(icon_2613ea6fe0814352d18f889715030d6d);
+        
+    
+        var popup_eca9d4fe84969834c955a5cff2036cf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b7830da3e57da242e8f071deaefd1d1 = $(`<div id="html_3b7830da3e57da242e8f071deaefd1d1" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>396000<br><strong>House Area sqft:</strong>1095</div>`)[0];
+                popup_eca9d4fe84969834c955a5cff2036cf8.setContent(html_3b7830da3e57da242e8f071deaefd1d1);
+            
+        
+
+        marker_0022f4218e758cb94f30babb0439638c.bindPopup(popup_eca9d4fe84969834c955a5cff2036cf8)
+        ;
+
+        
+    
+    
+            var marker_5a87f1e7576a59d1d63fee22597b3fb2 = L.marker(
+                [34.29339257053982, -111.6632955488151],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_2449b17cd04b36851979ee2cb3db557f = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5a87f1e7576a59d1d63fee22597b3fb2.setIcon(icon_2449b17cd04b36851979ee2cb3db557f);
+        
+    
+        var popup_3d2a6be76d24224d44c4c8f9647c6ba6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afab6b24adb0aa2b36d3f6c37e469f07 = $(`<div id="html_afab6b24adb0aa2b36d3f6c37e469f07" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>462000<br><strong>House Area sqft:</strong>938</div>`)[0];
+                popup_3d2a6be76d24224d44c4c8f9647c6ba6.setContent(html_afab6b24adb0aa2b36d3f6c37e469f07);
+            
+        
+
+        marker_5a87f1e7576a59d1d63fee22597b3fb2.bindPopup(popup_3d2a6be76d24224d44c4c8f9647c6ba6)
+        ;
+
+        
+    
+    
+            var marker_16b702ed3ea791e8dca6272edb5fdb24 = L.marker(
+                [34.89824915294627, -92.44092031324395],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_e41293001a6473324af89bbb7edc4922 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_16b702ed3ea791e8dca6272edb5fdb24.setIcon(icon_e41293001a6473324af89bbb7edc4922);
+        
+    
+        var popup_6e28629fb45eaf5078cf2cce2234cdfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e68085dbd028d351c7aedf4d04b379d2 = $(`<div id="html_e68085dbd028d351c7aedf4d04b379d2" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>260000<br><strong>House Area sqft:</strong>1668</div>`)[0];
+                popup_6e28629fb45eaf5078cf2cce2234cdfd.setContent(html_e68085dbd028d351c7aedf4d04b379d2);
+            
+        
+
+        marker_16b702ed3ea791e8dca6272edb5fdb24.bindPopup(popup_6e28629fb45eaf5078cf2cce2234cdfd)
+        ;
+
+        
+    
+    
+            var marker_924e86798e2ee1593cb8da05a1bcfcb5 = L.marker(
+                [37.253894888712104, -119.61438873320435],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_409d16f32b80d58fe2b4a85d47e22604 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_924e86798e2ee1593cb8da05a1bcfcb5.setIcon(icon_409d16f32b80d58fe2b4a85d47e22604);
+        
+    
+        var popup_a8a64e6e9f5aca0aeded670d91d05c1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_809bb7c32a03b203457a58ce19d353db = $(`<div id="html_809bb7c32a03b203457a58ce19d353db" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>869000<br><strong>House Area sqft:</strong>499</div>`)[0];
+                popup_a8a64e6e9f5aca0aeded670d91d05c1f.setContent(html_809bb7c32a03b203457a58ce19d353db);
+            
+        
+
+        marker_924e86798e2ee1593cb8da05a1bcfcb5.bindPopup(popup_a8a64e6e9f5aca0aeded670d91d05c1f)
+        ;
+
+        
+    
+    
+            var marker_625a15cca69fdd0ce814d190835882b3 = L.marker(
+                [38.99933966538301, -105.54877269595791],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_513d2d9af961ab695aeb81a54e0287c7 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_625a15cca69fdd0ce814d190835882b3.setIcon(icon_513d2d9af961ab695aeb81a54e0287c7);
+        
+    
+        var popup_286d6fbd2f20cadce48c2048c3d97525 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1ad0976afe49845eddd614067d76b54 = $(`<div id="html_c1ad0976afe49845eddd614067d76b54" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>662000<br><strong>House Area sqft:</strong>655</div>`)[0];
+                popup_286d6fbd2f20cadce48c2048c3d97525.setContent(html_c1ad0976afe49845eddd614067d76b54);
+            
+        
+
+        marker_625a15cca69fdd0ce814d190835882b3.bindPopup(popup_286d6fbd2f20cadce48c2048c3d97525)
+        ;
+
+        
+    
+    
+            var marker_131fdd384138e441f21cbc096349659a = L.marker(
+                [41.62089484862288, -72.72785582518726],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_1d617bc3776b2c3fa1b8f01e644ab107 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_131fdd384138e441f21cbc096349659a.setIcon(icon_1d617bc3776b2c3fa1b8f01e644ab107);
+        
+    
+        var popup_724e9b014b255d50ffac18f88b51fcac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6dfabb993560d80b350b451109cdbb2 = $(`<div id="html_d6dfabb993560d80b350b451109cdbb2" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>460000<br><strong>House Area sqft:</strong>943</div>`)[0];
+                popup_724e9b014b255d50ffac18f88b51fcac.setContent(html_d6dfabb993560d80b350b451109cdbb2);
+            
+        
+
+        marker_131fdd384138e441f21cbc096349659a.bindPopup(popup_724e9b014b255d50ffac18f88b51fcac)
+        ;
+
+        
+    
+    
+            var marker_56c1074b545b3d892d356ea37fd60855 = L.marker(
+                [38.982685337723325, -75.49756138697988],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_6953eccaad575b2f239f7376123216af = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_56c1074b545b3d892d356ea37fd60855.setIcon(icon_6953eccaad575b2f239f7376123216af);
+        
+    
+        var popup_03e3046c0a8079d230effac2d3981107 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f350a011d8aa5b553ca757e87850092a = $(`<div id="html_f350a011d8aa5b553ca757e87850092a" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>403000<br><strong>House Area sqft:</strong>1076</div>`)[0];
+                popup_03e3046c0a8079d230effac2d3981107.setContent(html_f350a011d8aa5b553ca757e87850092a);
+            
+        
+
+        marker_56c1074b545b3d892d356ea37fd60855.bindPopup(popup_03e3046c0a8079d230effac2d3981107)
+        ;
+
+        
+    
+    
+            var marker_0e582dacc96a6eef1d9ecaef700fb4f8 = L.marker(
+                [38.89837844615375, -77.02180859388534],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_1b67079940a4c1d566460ba75ec8924f = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0e582dacc96a6eef1d9ecaef700fb4f8.setIcon(icon_1b67079940a4c1d566460ba75ec8924f);
+        
+    
+        var popup_afa35948fd21cdc88fb8b6ee67acc9cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de66ea7ecd78c02110d4aa04fa8bdb25 = $(`<div id="html_de66ea7ecd78c02110d4aa04fa8bdb25" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>1195000<br><strong>House Area sqft:</strong>363</div>`)[0];
+                popup_afa35948fd21cdc88fb8b6ee67acc9cc.setContent(html_de66ea7ecd78c02110d4aa04fa8bdb25);
+            
+        
+
+        marker_0e582dacc96a6eef1d9ecaef700fb4f8.bindPopup(popup_afa35948fd21cdc88fb8b6ee67acc9cc)
+        ;
+
+        
+    
+    
+            var marker_0e8670d7e8ba23eaf974d7326cdd127c = L.marker(
+                [28.65889405831818, -82.50397028130844],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_473836d3c87c18be8fdbaa10af9fd7bd = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0e8670d7e8ba23eaf974d7326cdd127c.setIcon(icon_473836d3c87c18be8fdbaa10af9fd7bd);
+        
+    
+        var popup_9ee115872af725e98b098d02846c2af3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_149bd54de369093043709071c4c1605f = $(`<div id="html_149bd54de369093043709071c4c1605f" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>433000<br><strong>House Area sqft:</strong>1001</div>`)[0];
+                popup_9ee115872af725e98b098d02846c2af3.setContent(html_149bd54de369093043709071c4c1605f);
+            
+        
+
+        marker_0e8670d7e8ba23eaf974d7326cdd127c.bindPopup(popup_9ee115872af725e98b098d02846c2af3)
+        ;
+
+        
+    
+    
+            var marker_39dbcd4ba6012bf1f0378409d0c207d4 = L.marker(
+                [32.647998651064185, -83.44647345980864],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_7502d3aba706792764c389cd792dd086 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_39dbcd4ba6012bf1f0378409d0c207d4.setIcon(icon_7502d3aba706792764c389cd792dd086);
+        
+    
+        var popup_b907798b3ea45ed112df5ee5e8b3c46c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab00200947d11ea2bad9d9a5b9aa5a97 = $(`<div id="html_ab00200947d11ea2bad9d9a5b9aa5a97" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>388000<br><strong>House Area sqft:</strong>1118</div>`)[0];
+                popup_b907798b3ea45ed112df5ee5e8b3c46c.setContent(html_ab00200947d11ea2bad9d9a5b9aa5a97);
+            
+        
+
+        marker_39dbcd4ba6012bf1f0378409d0c207d4.bindPopup(popup_b907798b3ea45ed112df5ee5e8b3c46c)
+        ;
+
+        
+    
+    
+            var marker_35ac5a24ff56cf2326c090d69d2e151c = L.marker(
+                [20.14889874154337, -156.21762632280317],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_bda61f76e5e663936fa6e814da9c5dab = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_35ac5a24ff56cf2326c090d69d2e151c.setIcon(icon_bda61f76e5e663936fa6e814da9c5dab);
+        
+    
+        var popup_583508d64a9f4c5a1f74f86fac50bb77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_735ab210d2988e5721a543f06617fafd = $(`<div id="html_735ab210d2988e5721a543f06617fafd" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>947000<br><strong>House Area sqft:</strong>458</div>`)[0];
+                popup_583508d64a9f4c5a1f74f86fac50bb77.setContent(html_735ab210d2988e5721a543f06617fafd);
+            
+        
+
+        marker_35ac5a24ff56cf2326c090d69d2e151c.bindPopup(popup_583508d64a9f4c5a1f74f86fac50bb77)
+        ;
+
+        
+    
+    
+            var marker_4cd5a4c09c12a79beffcc2d7503aa8e6 = L.marker(
+                [44.38830348391967, -114.65981673436995],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_32fefd3ef664f81abf24189ac45a2a86 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4cd5a4c09c12a79beffcc2d7503aa8e6.setIcon(icon_32fefd3ef664f81abf24189ac45a2a86);
+        
+    
+        var popup_98fb4b9d064cd2ee0f6ac5bc0716acde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2249bf0a362e5df1be687172088fbffe = $(`<div id="html_2249bf0a362e5df1be687172088fbffe" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>491000<br><strong>House Area sqft:</strong>883</div>`)[0];
+                popup_98fb4b9d064cd2ee0f6ac5bc0716acde.setContent(html_2249bf0a362e5df1be687172088fbffe);
+            
+        
+
+        marker_4cd5a4c09c12a79beffcc2d7503aa8e6.bindPopup(popup_98fb4b9d064cd2ee0f6ac5bc0716acde)
+        ;
+
+        
+    
+    
+            var marker_edc1a98b57343c5fa3326d5f86e31f42 = L.marker(
+                [40.06267347605749, -89.19574045675363],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_c676944df05127aa917d1719aa19d6e7 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_edc1a98b57343c5fa3326d5f86e31f42.setIcon(icon_c676944df05127aa917d1719aa19d6e7);
+        
+    
+        var popup_9c671369be3484abe55bef7eaff86541 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d316c159143159c3b085e4c2bd3f71a = $(`<div id="html_0d316c159143159c3b085e4c2bd3f71a" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>289000<br><strong>House Area sqft:</strong>1501</div>`)[0];
+                popup_9c671369be3484abe55bef7eaff86541.setContent(html_0d316c159143159c3b085e4c2bd3f71a);
+            
+        
+
+        marker_edc1a98b57343c5fa3326d5f86e31f42.bindPopup(popup_9c671369be3484abe55bef7eaff86541)
+        ;
+
+        
+    
+    
+            var marker_b2f4fef7e41106cec08b1030ba2309de = L.marker(
+                [39.91212256329726, -86.27067081277526],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_c6700670f5ae105eb4e079cf58793c39 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b2f4fef7e41106cec08b1030ba2309de.setIcon(icon_c6700670f5ae105eb4e079cf58793c39);
+        
+    
+        var popup_d887f50013bbd50ebf786cd9fbb27d95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1434160244cc0a38943ba7cb29a17fdc = $(`<div id="html_1434160244cc0a38943ba7cb29a17fdc" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>261000<br><strong>House Area sqft:</strong>1662</div>`)[0];
+                popup_d887f50013bbd50ebf786cd9fbb27d95.setContent(html_1434160244cc0a38943ba7cb29a17fdc);
+            
+        
+
+        marker_b2f4fef7e41106cec08b1030ba2309de.bindPopup(popup_d887f50013bbd50ebf786cd9fbb27d95)
+        ;
+
+        
+    
+    
+            var marker_a13c709aba16ccecfd45b9a7606cedd4 = L.marker(
+                [42.07550243132768, -93.50039607537926],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_5ab83dfbd7701ceed6771f6533965996 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a13c709aba16ccecfd45b9a7606cedd4.setIcon(icon_5ab83dfbd7701ceed6771f6533965996);
+        
+    
+        var popup_56f7f0128a11e7f736d0bf218f86738c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0a26f3959a53e8842c979f263bba96d = $(`<div id="html_a0a26f3959a53e8842c979f263bba96d" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>241000<br><strong>House Area sqft:</strong>1800</div>`)[0];
+                popup_56f7f0128a11e7f736d0bf218f86738c.setContent(html_a0a26f3959a53e8842c979f263bba96d);
+            
+        
+
+        marker_a13c709aba16ccecfd45b9a7606cedd4.bindPopup(popup_56f7f0128a11e7f736d0bf218f86738c)
+        ;
+
+        
+    
+    
+            var marker_2069367a4c7f081cf42d33dd1ffc88e5 = L.marker(
+                [38.484403669487705, -98.38277207357518],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_974ce082356ef8b76c59918138b27532 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2069367a4c7f081cf42d33dd1ffc88e5.setIcon(icon_974ce082356ef8b76c59918138b27532);
+        
+    
+        var popup_5e6ed921586e23fbefc233baed141eaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fc7105b127d8aa77987c272b7893468 = $(`<div id="html_3fc7105b127d8aa77987c272b7893468" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>288000<br><strong>House Area sqft:</strong>1506</div>`)[0];
+                popup_5e6ed921586e23fbefc233baed141eaa.setContent(html_3fc7105b127d8aa77987c272b7893468);
+            
+        
+
+        marker_2069367a4c7f081cf42d33dd1ffc88e5.bindPopup(popup_5e6ed921586e23fbefc233baed141eaa)
+        ;
+
+        
+    
+    
+            var marker_50d48e567408bc7b2afe8d4abb4fd860 = L.marker(
+                [37.52693228579758, -85.29211100755428],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_9aef86ecd13254f0b5e1f17db359845d = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_50d48e567408bc7b2afe8d4abb4fd860.setIcon(icon_9aef86ecd13254f0b5e1f17db359845d);
+        
+    
+        var popup_8945fc4c7c937eb55852324c88ed50be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0575d8ba0138b7cc663b1e8a5b406669 = $(`<div id="html_0575d8ba0138b7cc663b1e8a5b406669" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>271000<br><strong>House Area sqft:</strong>1600</div>`)[0];
+                popup_8945fc4c7c937eb55852324c88ed50be.setContent(html_0575d8ba0138b7cc663b1e8a5b406669);
+            
+        
+
+        marker_50d48e567408bc7b2afe8d4abb4fd860.bindPopup(popup_8945fc4c7c937eb55852324c88ed50be)
+        ;
+
+        
+    
+    
+            var marker_f8149dcc0428abcee9774c00b5c8f575 = L.marker(
+                [31.061170988123184, -91.98856423817978],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_3d4bb4f3d889f7aa2b83a097c1d1b960 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f8149dcc0428abcee9774c00b5c8f575.setIcon(icon_3d4bb4f3d889f7aa2b83a097c1d1b960);
+        
+    
+        var popup_b5f0b4b0cc2732b4c959e2670ff105f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96297bb166780dc21c8392c7ab7c8229 = $(`<div id="html_96297bb166780dc21c8392c7ab7c8229" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>248000<br><strong>House Area sqft:</strong>1749</div>`)[0];
+                popup_b5f0b4b0cc2732b4c959e2670ff105f6.setContent(html_96297bb166780dc21c8392c7ab7c8229);
+            
+        
+
+        marker_f8149dcc0428abcee9774c00b5c8f575.bindPopup(popup_b5f0b4b0cc2732b4c959e2670ff105f6)
+        ;
+
+        
+    
+    
+            var marker_8a76a33987f0840a6905e0a56d00e4f5 = L.marker(
+                [45.37856800973397, -69.23244781343445],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_a6f6b459fcd22c536cbd09238b45daa5 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8a76a33987f0840a6905e0a56d00e4f5.setIcon(icon_a6f6b459fcd22c536cbd09238b45daa5);
+        
+    
+        var popup_18204843d2f96e80d8deb52f3f56e027 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc336bb576c63f9ff04d6f308b93e902 = $(`<div id="html_fc336bb576c63f9ff04d6f308b93e902" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>414000<br><strong>House Area sqft:</strong>1047</div>`)[0];
+                popup_18204843d2f96e80d8deb52f3f56e027.setContent(html_fc336bb576c63f9ff04d6f308b93e902);
+            
+        
+
+        marker_8a76a33987f0840a6905e0a56d00e4f5.bindPopup(popup_18204843d2f96e80d8deb52f3f56e027)
+        ;
+
+        
+    
+    
+            var marker_7bba43eb29ae01787d07ddc38c47c938 = L.marker(
+                [39.03702097199749, -76.77057507690161],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_050c06d8c71b42c63bfd59b38d8cd41b = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7bba43eb29ae01787d07ddc38c47c938.setIcon(icon_050c06d8c71b42c63bfd59b38d8cd41b);
+        
+    
+        var popup_8879be8bfc52c87ee4bfe1af09dfd79b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb90b6d8529681d0270966194dbcbf43 = $(`<div id="html_fb90b6d8529681d0270966194dbcbf43" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>513000<br><strong>House Area sqft:</strong>845</div>`)[0];
+                popup_8879be8bfc52c87ee4bfe1af09dfd79b.setContent(html_fb90b6d8529681d0270966194dbcbf43);
+            
+        
+
+        marker_7bba43eb29ae01787d07ddc38c47c938.bindPopup(popup_8879be8bfc52c87ee4bfe1af09dfd79b)
+        ;
+
+        
+    
+    
+            var marker_68df2f1508fa70d72f332ce57badd6f4 = L.marker(
+                [42.26704124778922, -71.84340676994377],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_7554e52f1377745bc9a66217a6a9074e = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_68df2f1508fa70d72f332ce57badd6f4.setIcon(icon_7554e52f1377745bc9a66217a6a9074e);
+        
+    
+        var popup_b932c03cfa4e3545d1364dbbe1d98cd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2d82826609fa06f7cd24d5ad8de8ad4 = $(`<div id="html_c2d82826609fa06f7cd24d5ad8de8ad4" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>646000<br><strong>House Area sqft:</strong>671</div>`)[0];
+                popup_b932c03cfa4e3545d1364dbbe1d98cd8.setContent(html_c2d82826609fa06f7cd24d5ad8de8ad4);
+            
+        
+
+        marker_68df2f1508fa70d72f332ce57badd6f4.bindPopup(popup_b932c03cfa4e3545d1364dbbe1d98cd8)
+        ;
+
+        
+    
+    
+            var marker_f8b2af9e41e16d5ddd9514496e84b11d = L.marker(
+                [44.3403584281452, -85.42558192179358],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_d7ac9af3d606827c7523248b5600f76b = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f8b2af9e41e16d5ddd9514496e84b11d.setIcon(icon_d7ac9af3d606827c7523248b5600f76b);
+        
+    
+        var popup_2547bf94612067d6d08c5beb7f5087b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c17070c7eec9767f5cd45fc3723421c4 = $(`<div id="html_c17070c7eec9767f5cd45fc3723421c4" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>267000<br><strong>House Area sqft:</strong>1624</div>`)[0];
+                popup_2547bf94612067d6d08c5beb7f5087b3.setContent(html_c17070c7eec9767f5cd45fc3723421c4);
+            
+        
+
+        marker_f8b2af9e41e16d5ddd9514496e84b11d.bindPopup(popup_2547bf94612067d6d08c5beb7f5087b3)
+        ;
+
+        
+    
+    
+            var marker_fea3881b2f11250ed1f5ff8b1083cdd8 = L.marker(
+                [46.317018139687704, -94.31123738894185],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_133600f7d1538f4de899e4b02baec1b4 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fea3881b2f11250ed1f5ff8b1083cdd8.setIcon(icon_133600f7d1538f4de899e4b02baec1b4);
+        
+    
+        var popup_290cc1b9ebad10c6203e1901478d11ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b6b638395c2739561089e188f573e37 = $(`<div id="html_9b6b638395c2739561089e188f573e37" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>364000<br><strong>House Area sqft:</strong>1191</div>`)[0];
+                popup_290cc1b9ebad10c6203e1901478d11ab.setContent(html_9b6b638395c2739561089e188f573e37);
+            
+        
+
+        marker_fea3881b2f11250ed1f5ff8b1083cdd8.bindPopup(popup_290cc1b9ebad10c6203e1901478d11ab)
+        ;
+
+        
+    
+    
+            var marker_7599fe651fc20984ac6a3124595e4a04 = L.marker(
+                [32.749801534175724, -89.66350130829375],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_4b5a4bcb4004682293635440ea338ff7 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7599fe651fc20984ac6a3124595e4a04.setIcon(icon_4b5a4bcb4004682293635440ea338ff7);
+        
+    
+        var popup_1af723916ebd0957b78213f55f3dce26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_debce0e119e4ac12160455bed2e4b868 = $(`<div id="html_debce0e119e4ac12160455bed2e4b868" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>257000<br><strong>House Area sqft:</strong>1687</div>`)[0];
+                popup_1af723916ebd0957b78213f55f3dce26.setContent(html_debce0e119e4ac12160455bed2e4b868);
+            
+        
+
+        marker_7599fe651fc20984ac6a3124595e4a04.bindPopup(popup_1af723916ebd0957b78213f55f3dce26)
+        ;
+
+        
+    
+    
+            var marker_122d2746d38b120ce2de5d4be47a1545 = L.marker(
+                [38.36805363515973, -92.47744231074401],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_c0307e7aee2f09694a4af3973dbd9bb5 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_122d2746d38b120ce2de5d4be47a1545.setIcon(icon_c0307e7aee2f09694a4af3973dbd9bb5);
+        
+    
+        var popup_71cbf83ac55fcb5d8e9e18cc7dd72af0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55d579124489d2f5c0098073c9946083 = $(`<div id="html_55d579124489d2f5c0098073c9946083" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>273000<br><strong>House Area sqft:</strong>1589</div>`)[0];
+                popup_71cbf83ac55fcb5d8e9e18cc7dd72af0.setContent(html_55d579124489d2f5c0098073c9946083);
+            
+        
+
+        marker_122d2746d38b120ce2de5d4be47a1545.bindPopup(popup_71cbf83ac55fcb5d8e9e18cc7dd72af0)
+        ;
+
+        
+    
+    
+            var marker_6be0cb00bb34648a5ce9079c02eab403 = L.marker(
+                [47.033440693500935, -109.64685632824923],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_d51b0b48c0cabd592ee427c8c0b4ce3d = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6be0cb00bb34648a5ce9079c02eab403.setIcon(icon_d51b0b48c0cabd592ee427c8c0b4ce3d);
+        
+    
+        var popup_4beeb358d63e0f5aa41db0161058f683 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd6b7a6b6fce0fc12605acc0106bc688 = $(`<div id="html_bd6b7a6b6fce0fc12605acc0106bc688" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>539000<br><strong>House Area sqft:</strong>804</div>`)[0];
+                popup_4beeb358d63e0f5aa41db0161058f683.setContent(html_bd6b7a6b6fce0fc12605acc0106bc688);
+            
+        
+
+        marker_6be0cb00bb34648a5ce9079c02eab403.bindPopup(popup_4beeb358d63e0f5aa41db0161058f683)
+        ;
+
+        
+    
+    
+            var marker_e00e1fab2987e4e8a8356763709fcd8e = L.marker(
+                [41.52780689020982, -99.81051493779842],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_06225427091fcfc261f0504324b78d2b = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e00e1fab2987e4e8a8356763709fcd8e.setIcon(icon_06225427091fcfc261f0504324b78d2b);
+        
+    
+        var popup_0ec91d33951a4ebc1efcdeaaaa97de1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79fe2b77bcdc5eb533bad59aa55fb2c3 = $(`<div id="html_79fe2b77bcdc5eb533bad59aa55fb2c3" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>290000<br><strong>House Area sqft:</strong>1495</div>`)[0];
+                popup_0ec91d33951a4ebc1efcdeaaaa97de1e.setContent(html_79fe2b77bcdc5eb533bad59aa55fb2c3);
+            
+        
+
+        marker_e00e1fab2987e4e8a8356763709fcd8e.bindPopup(popup_0ec91d33951a4ebc1efcdeaaaa97de1e)
+        ;
+
+        
+    
+    
+            var marker_020e9d1821b3a5f2b403f347d185ae26 = L.marker(
+                [39.35482764691297, -116.65435595238647],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_ffb79b891394360fd098da46b4ec8057 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_020e9d1821b3a5f2b403f347d185ae26.setIcon(icon_ffb79b891394360fd098da46b4ec8057);
+        
+    
+        var popup_82fdcade25e3b6d6f9708cc4310e521b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feb4368316222fb5a34fdaf11a5c4e2b = $(`<div id="html_feb4368316222fb5a34fdaf11a5c4e2b" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>499000<br><strong>House Area sqft:</strong>869</div>`)[0];
+                popup_82fdcade25e3b6d6f9708cc4310e521b.setContent(html_feb4368316222fb5a34fdaf11a5c4e2b);
+            
+        
+
+        marker_020e9d1821b3a5f2b403f347d185ae26.bindPopup(popup_82fdcade25e3b6d6f9708cc4310e521b)
+        ;
+
+        
+    
+    
+            var marker_4f0fe9579d73d49e835c53f80da01f00 = L.marker(
+                [43.68176172611066, -71.57906198290004],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_00081e155f7ac3e9e762d044ce257725 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4f0fe9579d73d49e835c53f80da01f00.setIcon(icon_00081e155f7ac3e9e762d044ce257725);
+        
+    
+        var popup_fc7a9be49c7e32c9e81194509dde0be9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d95c0863bc840d8be06c7981ad130fbc = $(`<div id="html_d95c0863bc840d8be06c7981ad130fbc" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>499000<br><strong>House Area sqft:</strong>869</div>`)[0];
+                popup_fc7a9be49c7e32c9e81194509dde0be9.setContent(html_d95c0863bc840d8be06c7981ad130fbc);
+            
+        
+
+        marker_4f0fe9579d73d49e835c53f80da01f00.bindPopup(popup_fc7a9be49c7e32c9e81194509dde0be9)
+        ;
+
+        
+    
+    
+            var marker_edf1ff8c357b8252d797c6e88da3e750 = L.marker(
+                [40.19283878204817, -74.6618688363718],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_c29e1bfb1502d30a6448768ee2b55c03 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_edf1ff8c357b8252d797c6e88da3e750.setIcon(icon_c29e1bfb1502d30a6448768ee2b55c03);
+        
+    
+        var popup_155e2c2d8e8725f62a6ef155ba070047 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e31153f537bb7e4d42c529e0851fc66d = $(`<div id="html_e31153f537bb7e4d42c529e0851fc66d" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>542000<br><strong>House Area sqft:</strong>800</div>`)[0];
+                popup_155e2c2d8e8725f62a6ef155ba070047.setContent(html_e31153f537bb7e4d42c529e0851fc66d);
+            
+        
+
+        marker_edf1ff8c357b8252d797c6e88da3e750.bindPopup(popup_155e2c2d8e8725f62a6ef155ba070047)
+        ;
+
+        
+    
+    
+            var marker_5fcb12d847f8472e1e172887cdf31b36 = L.marker(
+                [34.421558301834814, -106.10784047639247],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_6c8b9533f38e27ea00b45f21765e659c = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5fcb12d847f8472e1e172887cdf31b36.setIcon(icon_6c8b9533f38e27ea00b45f21765e659c);
+        
+    
+        var popup_15a21a30c3063af7ec717355b99a5e26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4faf4ae68033784e0987b08d12cde8a7 = $(`<div id="html_4faf4ae68033784e0987b08d12cde8a7" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>396000<br><strong>House Area sqft:</strong>1095</div>`)[0];
+                popup_15a21a30c3063af7ec717355b99a5e26.setContent(html_4faf4ae68033784e0987b08d12cde8a7);
+            
+        
+
+        marker_5fcb12d847f8472e1e172887cdf31b36.bindPopup(popup_15a21a30c3063af7ec717355b99a5e26)
+        ;
+
+        
+    
+    
+            var marker_932067fedc3802b11eddce1e205b796c = L.marker(
+                [42.94335660110057, -75.50111020443045],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_efdf9b4c5d39de4dba7c45d0d97006cf = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_932067fedc3802b11eddce1e205b796c.setIcon(icon_efdf9b4c5d39de4dba7c45d0d97006cf);
+        
+    
+        var popup_8ce64c16b57540e0cd3655a7857e9430 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59aa69d5b58e0e00e13385a268a68a60 = $(`<div id="html_59aa69d5b58e0e00e13385a268a68a60" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>522000<br><strong>House Area sqft:</strong>831</div>`)[0];
+                popup_8ce64c16b57540e0cd3655a7857e9430.setContent(html_59aa69d5b58e0e00e13385a268a68a60);
+            
+        
+
+        marker_932067fedc3802b11eddce1e205b796c.bindPopup(popup_8ce64c16b57540e0cd3655a7857e9430)
+        ;
+
+        
+    
+    
+            var marker_84173490f3ee81fca8e4f9f9518074c8 = L.marker(
+                [35.53769328532451, -79.33904918457344],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_7f4cf475ffb1b712976f5c8ac33ea558 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_84173490f3ee81fca8e4f9f9518074c8.setIcon(icon_7f4cf475ffb1b712976f5c8ac33ea558);
+        
+    
+        var popup_82c507f3b884f0da727b684bc2374670 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e2b373bf919c3e61221a1ee50ba9c3a = $(`<div id="html_6e2b373bf919c3e61221a1ee50ba9c3a" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>390000<br><strong>House Area sqft:</strong>1112</div>`)[0];
+                popup_82c507f3b884f0da727b684bc2374670.setContent(html_6e2b373bf919c3e61221a1ee50ba9c3a);
+            
+        
+
+        marker_84173490f3ee81fca8e4f9f9518074c8.bindPopup(popup_82c507f3b884f0da727b684bc2374670)
+        ;
+
+        
+    
+    
+            var marker_c057d99b67e486c9be429f7bc691c6fe = L.marker(
+                [47.44546543570713, -100.47012149779626],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_3b54220f97da8abe6a80d620fbb88555 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c057d99b67e486c9be429f7bc691c6fe.setIcon(icon_3b54220f97da8abe6a80d620fbb88555);
+        
+    
+        var popup_c476c94efa3cfb00c56f1fe7512dff76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfbb81e73f8572259a7e494595a0573d = $(`<div id="html_dfbb81e73f8572259a7e494595a0573d" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>296000<br><strong>House Area sqft:</strong>1465</div>`)[0];
+                popup_c476c94efa3cfb00c56f1fe7512dff76.setContent(html_dfbb81e73f8572259a7e494595a0573d);
+            
+        
+
+        marker_c057d99b67e486c9be429f7bc691c6fe.bindPopup(popup_c476c94efa3cfb00c56f1fe7512dff76)
+        ;
+
+        
+    
+    
+            var marker_b9f72beb678dea772b1a7c92a8b7c3da = L.marker(
+                [40.29607340765351, -82.78820639463287],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_d9e3df1a682f44e26ec88268a52272de = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b9f72beb678dea772b1a7c92a8b7c3da.setIcon(icon_d9e3df1a682f44e26ec88268a52272de);
+        
+    
+        var popup_342ae32d926ec7690d98a9584539f8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f81df8127e15078333dde0ec9ccd9d94 = $(`<div id="html_f81df8127e15078333dde0ec9ccd9d94" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>255000<br><strong>House Area sqft:</strong>1701</div>`)[0];
+                popup_342ae32d926ec7690d98a9584539f8c9.setContent(html_f81df8127e15078333dde0ec9ccd9d94);
+            
+        
+
+        marker_b9f72beb678dea772b1a7c92a8b7c3da.bindPopup(popup_342ae32d926ec7690d98a9584539f8c9)
+        ;
+
+        
+    
+    
+            var marker_e6dc0bfa3797bafbd05fe079b7ad14ac = L.marker(
+                [35.584949944469514, -97.50582015711895],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_57c80cf0e54e8d2a238e67f078883dc6 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e6dc0bfa3797bafbd05fe079b7ad14ac.setIcon(icon_57c80cf0e54e8d2a238e67f078883dc6);
+        
+    
+        var popup_255e7a1e7f3774d7e2b83d9a18a710e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e19f64bd08fea7545a327efc9aea293b = $(`<div id="html_e19f64bd08fea7545a327efc9aea293b" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>247000<br><strong>House Area sqft:</strong>1756</div>`)[0];
+                popup_255e7a1e7f3774d7e2b83d9a18a710e5.setContent(html_e19f64bd08fea7545a327efc9aea293b);
+            
+        
+
+        marker_e6dc0bfa3797bafbd05fe079b7ad14ac.bindPopup(popup_255e7a1e7f3774d7e2b83d9a18a710e5)
+        ;
+
+        
+    
+    
+            var marker_8c68fc8bf56dff4aa2b0099497395a6c = L.marker(
+                [43.937317506889805, -120.55532730535728],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_c6fba53b347234f06b0d23acec1ef77d = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8c68fc8bf56dff4aa2b0099497395a6c.setIcon(icon_c6fba53b347234f06b0d23acec1ef77d);
+        
+    
+        var popup_a42d766df25e78a8544de0869a440de6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e47e88ba1fd1268c7125159e7678768 = $(`<div id="html_8e47e88ba1fd1268c7125159e7678768" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>522000<br><strong>House Area sqft:</strong>831</div>`)[0];
+                popup_a42d766df25e78a8544de0869a440de6.setContent(html_8e47e88ba1fd1268c7125159e7678768);
+            
+        
+
+        marker_8c68fc8bf56dff4aa2b0099497395a6c.bindPopup(popup_a42d766df25e78a8544de0869a440de6)
+        ;
+
+        
+    
+    
+            var marker_d69a19fbd1e7623eb2aec0c2aa0fb68b = L.marker(
+                [40.874137390013374, -77.8000378488181],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_a83912cf70828f85c119ee6dba17a69e = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d69a19fbd1e7623eb2aec0c2aa0fb68b.setIcon(icon_a83912cf70828f85c119ee6dba17a69e);
+        
+    
+        var popup_30fcf3d06149076a0e9da95df950a9ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8152c133d39a7888865b375abf3f84e = $(`<div id="html_f8152c133d39a7888865b375abf3f84e" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>319000<br><strong>House Area sqft:</strong>1359</div>`)[0];
+                popup_30fcf3d06149076a0e9da95df950a9ea.setContent(html_f8152c133d39a7888865b375abf3f84e);
+            
+        
+
+        marker_d69a19fbd1e7623eb2aec0c2aa0fb68b.bindPopup(popup_30fcf3d06149076a0e9da95df950a9ea)
+        ;
+
+        
+    
+    
+            var marker_c7346420066082e18c181e546da55455 = L.marker(
+                [41.69148952545731, -71.5708604042548],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_670054fea9943f9f4275558bcb8a4046 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c7346420066082e18c181e546da55455.setIcon(icon_670054fea9943f9f4275558bcb8a4046);
+        
+    
+        var popup_2efc3b0251dc9f820f118f39e342f91d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b89942515a7a86445aebc0aa68212a6 = $(`<div id="html_9b89942515a7a86445aebc0aa68212a6" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>518000<br><strong>House Area sqft:</strong>837</div>`)[0];
+                popup_2efc3b0251dc9f820f118f39e342f91d.setContent(html_9b89942515a7a86445aebc0aa68212a6);
+            
+        
+
+        marker_c7346420066082e18c181e546da55455.bindPopup(popup_2efc3b0251dc9f820f118f39e342f91d)
+        ;
+
+        
+    
+    
+            var marker_4d6c9c5576206477e41f9bda8dac6a38 = L.marker(
+                [33.903680752231125, -80.89540604318552],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_69dd57c79766b12c4b1ce969977e2884 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4d6c9c5576206477e41f9bda8dac6a38.setIcon(icon_69dd57c79766b12c4b1ce969977e2884);
+        
+    
+        var popup_bb9747e72a99a7d5d1d88893a2aa4e68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee0b007897da6ce0c638012340c5f067 = $(`<div id="html_ee0b007897da6ce0c638012340c5f067" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>402000<br><strong>House Area sqft:</strong>1079</div>`)[0];
+                popup_bb9747e72a99a7d5d1d88893a2aa4e68.setContent(html_ee0b007897da6ce0c638012340c5f067);
+            
+        
+
+        marker_4d6c9c5576206477e41f9bda8dac6a38.bindPopup(popup_bb9747e72a99a7d5d1d88893a2aa4e68)
+        ;
+
+        
+    
+    
+            var marker_50cbdba9701643dd167e58c589488bc8 = L.marker(
+                [44.435973156474375, -100.23295560524708],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_747a36a54429a1c018a91876c55f29b6 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_50cbdba9701643dd167e58c589488bc8.setIcon(icon_747a36a54429a1c018a91876c55f29b6);
+        
+    
+        var popup_85448d2ab16f4bd0008edcccb93e039e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_440e9669d09b8f993917fc0702c33229 = $(`<div id="html_440e9669d09b8f993917fc0702c33229" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>340000<br><strong>House Area sqft:</strong>1275</div>`)[0];
+                popup_85448d2ab16f4bd0008edcccb93e039e.setContent(html_440e9669d09b8f993917fc0702c33229);
+            
+        
+
+        marker_50cbdba9701643dd167e58c589488bc8.bindPopup(popup_85448d2ab16f4bd0008edcccb93e039e)
+        ;
+
+        
+    
+    
+            var marker_5537c229d8d3bf1933e80e8d08a7f0b0 = L.marker(
+                [35.84252384457215, -86.34798928628635],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_06de74c1a8a18c3aec2c0eaf5a2ca5f3 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5537c229d8d3bf1933e80e8d08a7f0b0.setIcon(icon_06de74c1a8a18c3aec2c0eaf5a2ca5f3);
+        
+    
+        var popup_b461057e559c430150d77672a00279a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f75e629bb19cf8c30eb75509ea78623 = $(`<div id="html_7f75e629bb19cf8c30eb75509ea78623" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>397000<br><strong>House Area sqft:</strong>1092</div>`)[0];
+                popup_b461057e559c430150d77672a00279a4.setContent(html_7f75e629bb19cf8c30eb75509ea78623);
+            
+        
+
+        marker_5537c229d8d3bf1933e80e8d08a7f0b0.bindPopup(popup_b461057e559c430150d77672a00279a4)
+        ;
+
+        
+    
+    
+            var marker_5faa53a9f1761066e333d83889360079 = L.marker(
+                [31.49517292598851, -99.35787337649897],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_6736362055ea1c22fb61a046f2e4a0b6 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5faa53a9f1761066e333d83889360079.setIcon(icon_6736362055ea1c22fb61a046f2e4a0b6);
+        
+    
+        var popup_7f74fc459cad7747e8352cbdc7a1528e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1384fa1dfc20284adad0f0b67e1072db = $(`<div id="html_1384fa1dfc20284adad0f0b67e1072db" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>349000<br><strong>House Area sqft:</strong>1242</div>`)[0];
+                popup_7f74fc459cad7747e8352cbdc7a1528e.setContent(html_1384fa1dfc20284adad0f0b67e1072db);
+            
+        
+
+        marker_5faa53a9f1761066e333d83889360079.bindPopup(popup_7f74fc459cad7747e8352cbdc7a1528e)
+        ;
+
+        
+    
+    
+            var marker_c0ce48de365a2bbe207b202755d82a36 = L.marker(
+                [39.32521344208082, -111.67783753070134],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_99a8238a123e2df53207b98389fa9550 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c0ce48de365a2bbe207b202755d82a36.setIcon(icon_99a8238a123e2df53207b98389fa9550);
+        
+    
+        var popup_1fef6b6f588e853929f3c46d86395bfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43287be7b9483a84dffed27004d95df0 = $(`<div id="html_43287be7b9483a84dffed27004d95df0" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>620000<br><strong>House Area sqft:</strong>699</div>`)[0];
+                popup_1fef6b6f588e853929f3c46d86395bfb.setContent(html_43287be7b9483a84dffed27004d95df0);
+            
+        
+
+        marker_c0ce48de365a2bbe207b202755d82a36.bindPopup(popup_1fef6b6f588e853929f3c46d86395bfb)
+        ;
+
+        
+    
+    
+            var marker_cb0f98efc245ccdbb5bf841a80826e8c = L.marker(
+                [44.07439915919234, -72.65947383995099],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_557e81b09a3ea1d7b0bf109a7be8f206 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cb0f98efc245ccdbb5bf841a80826e8c.setIcon(icon_557e81b09a3ea1d7b0bf109a7be8f206);
+        
+    
+        var popup_588e0b4050303e3b5487e40a7098f208 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c98a7d7210f5e6eb5d9738cde3ba5a9e = $(`<div id="html_c98a7d7210f5e6eb5d9738cde3ba5a9e" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>395800<br><strong>House Area sqft:</strong>1096</div>`)[0];
+                popup_588e0b4050303e3b5487e40a7098f208.setContent(html_c98a7d7210f5e6eb5d9738cde3ba5a9e);
+            
+        
+
+        marker_cb0f98efc245ccdbb5bf841a80826e8c.bindPopup(popup_588e0b4050303e3b5487e40a7098f208)
+        ;
+
+        
+    
+    
+            var marker_b10bd2a429d345f454aeec30dae4cbcb = L.marker(
+                [37.515059936575014, -78.78931517672089],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_4049b0d5f08a10880ab6136788cb5b6e = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b10bd2a429d345f454aeec30dae4cbcb.setIcon(icon_4049b0d5f08a10880ab6136788cb5b6e);
+        
+    
+        var popup_380085f20b48fdb68b619bcc82bc3604 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_886dac24b1207603c59a19756a52721b = $(`<div id="html_886dac24b1207603c59a19756a52721b" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>416000<br><strong>House Area sqft:</strong>1042</div>`)[0];
+                popup_380085f20b48fdb68b619bcc82bc3604.setContent(html_886dac24b1207603c59a19756a52721b);
+            
+        
+
+        marker_b10bd2a429d345f454aeec30dae4cbcb.bindPopup(popup_380085f20b48fdb68b619bcc82bc3604)
+        ;
+
+        
+    
+    
+            var marker_54a378331ee0b3ee6bc46b43e46d8f2e = L.marker(
+                [47.37537933179685, -120.4489812152016],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_ee8acc28a06ef890a3eda0a0e8d1a64e = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_54a378331ee0b3ee6bc46b43e46d8f2e.setIcon(icon_ee8acc28a06ef890a3eda0a0e8d1a64e);
+        
+    
+        var popup_0b833f35674c148a7806cd778cb789f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a83dc0e1c8910bf68becff789cb77fd1 = $(`<div id="html_a83dc0e1c8910bf68becff789cb77fd1" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>677000<br><strong>House Area sqft:</strong>640</div>`)[0];
+                popup_0b833f35674c148a7806cd778cb789f6.setContent(html_a83dc0e1c8910bf68becff789cb77fd1);
+            
+        
+
+        marker_54a378331ee0b3ee6bc46b43e46d8f2e.bindPopup(popup_0b833f35674c148a7806cd778cb789f6)
+        ;
+
+        
+    
+    
+            var marker_09f523f61d8fc7803788dc40ef2550e5 = L.marker(
+                [38.638439624364274, -80.6166804380073],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_98a7e7861ddf7fa0073887f3300afce6 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_09f523f61d8fc7803788dc40ef2550e5.setIcon(icon_98a7e7861ddf7fa0073887f3300afce6);
+        
+    
+        var popup_02a4d795199ffd96f1c583358a8ed604 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e59a10d02862f30fc4ca8f5cc0488ce2 = $(`<div id="html_e59a10d02862f30fc4ca8f5cc0488ce2" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>261000<br><strong>House Area sqft:</strong>1662</div>`)[0];
+                popup_02a4d795199ffd96f1c583358a8ed604.setContent(html_e59a10d02862f30fc4ca8f5cc0488ce2);
+            
+        
+
+        marker_09f523f61d8fc7803788dc40ef2550e5.bindPopup(popup_02a4d795199ffd96f1c583358a8ed604)
+        ;
+
+        
+    
+    
+            var marker_2573ecc167f138321cc835f180dfa033 = L.marker(
+                [44.635044961652504, -90.01422478448723],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_b5ad2d1955bc537a6d1cddbdb0775539 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2573ecc167f138321cc835f180dfa033.setIcon(icon_b5ad2d1955bc537a6d1cddbdb0775539);
+        
+    
+        var popup_c6c1d198f816b040851b7c7eb39f6d5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f86cb73516f67a442bb2523c64fb218 = $(`<div id="html_8f86cb73516f67a442bb2523c64fb218" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>326000<br><strong>House Area sqft:</strong>1330</div>`)[0];
+                popup_c6c1d198f816b040851b7c7eb39f6d5e.setContent(html_8f86cb73516f67a442bb2523c64fb218);
+            
+        
+
+        marker_2573ecc167f138321cc835f180dfa033.bindPopup(popup_c6c1d198f816b040851b7c7eb39f6d5e)
+        ;
+
+        
+    
+    
+            var marker_91bd68a3f3488bb5471bf29efdfb4e11 = L.marker(
+                [43.000697315185285, -107.55190182272793],
+                {"radius": 10}
+            ).addTo(feature_group_c9e878be00284d3b23f4eccb3d6690c6);
+        
+    
+            var icon_d76d778440e5fa92a655920569829b93 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_91bd68a3f3488bb5471bf29efdfb4e11.setIcon(icon_d76d778440e5fa92a655920569829b93);
+        
+    
+        var popup_f08b41b8f57ec8d30e367ea6b7028995 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80cb614216a41977397d408793d5b961 = $(`<div id="html_80cb614216a41977397d408793d5b961" style="width: 100.0%; height: 100.0%;"><strong>house_price : $</strong>461000<br><strong>House Area sqft:</strong>940</div>`)[0];
+                popup_f08b41b8f57ec8d30e367ea6b7028995.setContent(html_80cb614216a41977397d408793d5b961);
+            
+        
+
+        marker_91bd68a3f3488bb5471bf29efdfb4e11.bindPopup(popup_f08b41b8f57ec8d30e367ea6b7028995)
+        ;
+
+        
+    
+    
+            var layer_control_7cc27b46ba7aba64ac51dcc6e57a1dcd = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_9d4551765419c3c00cbbb2f857249888,
+                },
+                overlays :  {
+                    "Query Search" : feature_group_c9e878be00284d3b23f4eccb3d6690c6,
+                },
+            };
+            L.control.layers(
+                layer_control_7cc27b46ba7aba64ac51dcc6e57a1dcd.base_layers,
+                layer_control_7cc27b46ba7aba64ac51dcc6e57a1dcd.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_1bd4162c3b36f1eec887af0f910791a6);
+        
+</script>
+</html>

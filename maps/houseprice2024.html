@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9f3eeed25ebc4733d232535177410608 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9f3eeed25ebc4733d232535177410608" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9f3eeed25ebc4733d232535177410608 = L.map(
+                "map_9f3eeed25ebc4733d232535177410608",
+                {
+                    center: [32.78990682135675, -86.82778271419518],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b89f99fa593db74411077dad02fb658f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9f3eeed25ebc4733d232535177410608);
+        
+    
+            var feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c = L.featureGroup(
+                {}
+            ).addTo(map_9f3eeed25ebc4733d232535177410608);
+        
+    
+            var marker_2f9b2bfe16097b694703fa2595015e80 = L.marker(
+                [32.78990682135675, -86.82778271419518],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_84dd6b82d0ed6054c6d275e52836460e = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2f9b2bfe16097b694703fa2595015e80.setIcon(icon_84dd6b82d0ed6054c6d275e52836460e);
+        
+    
+        var popup_f4a0c85fb88a03fa78c3fcd43478bcba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2641c625500e689864acd75539ebb5e = $(`<div id="html_b2641c625500e689864acd75539ebb5e" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>277000<br><strong>Comparitive House Area sqft:</strong>1566</div>`)[0];
+                popup_f4a0c85fb88a03fa78c3fcd43478bcba.setContent(html_b2641c625500e689864acd75539ebb5e);
+            
+        
+
+        marker_2f9b2bfe16097b694703fa2595015e80.bindPopup(popup_f4a0c85fb88a03fa78c3fcd43478bcba)
+        ;
+
+        
+    
+    
+            var marker_cfbe5ffe05b80309badb250a3d1f5e07 = L.marker(
+                [64.2204189994081, -152.54268949281357],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_4f1173483b8f696bf5d0a0c65bae54b8 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cfbe5ffe05b80309badb250a3d1f5e07.setIcon(icon_4f1173483b8f696bf5d0a0c65bae54b8);
+        
+    
+        var popup_65f7d474fd7bf97b0768f8b4fd4b52fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35e388adb5501371789a89c1ba8c213f = $(`<div id="html_35e388adb5501371789a89c1ba8c213f" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>396000<br><strong>Comparitive House Area sqft:</strong>1095</div>`)[0];
+                popup_65f7d474fd7bf97b0768f8b4fd4b52fb.setContent(html_35e388adb5501371789a89c1ba8c213f);
+            
+        
+
+        marker_cfbe5ffe05b80309badb250a3d1f5e07.bindPopup(popup_65f7d474fd7bf97b0768f8b4fd4b52fb)
+        ;
+
+        
+    
+    
+            var marker_a65410cdf5517e809163d0b440ea568c = L.marker(
+                [34.29339257053982, -111.6632955488151],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_280263b857dcf443591fa0e678e9370f = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a65410cdf5517e809163d0b440ea568c.setIcon(icon_280263b857dcf443591fa0e678e9370f);
+        
+    
+        var popup_451f857851305d77978ad6774b87aac3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6ba518dabf52400eaab4d3615c2976a = $(`<div id="html_a6ba518dabf52400eaab4d3615c2976a" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>462000<br><strong>Comparitive House Area sqft:</strong>938</div>`)[0];
+                popup_451f857851305d77978ad6774b87aac3.setContent(html_a6ba518dabf52400eaab4d3615c2976a);
+            
+        
+
+        marker_a65410cdf5517e809163d0b440ea568c.bindPopup(popup_451f857851305d77978ad6774b87aac3)
+        ;
+
+        
+    
+    
+            var marker_616918107160c424bb48a5872ed822be = L.marker(
+                [34.89824915294627, -92.44092031324395],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_8598697e1c8511854c68bf85df737c9a = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_616918107160c424bb48a5872ed822be.setIcon(icon_8598697e1c8511854c68bf85df737c9a);
+        
+    
+        var popup_4e20025477bd7202e661c9ce480c037c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb135893c5c2477e28157282112e74ed = $(`<div id="html_bb135893c5c2477e28157282112e74ed" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>260000<br><strong>Comparitive House Area sqft:</strong>1668</div>`)[0];
+                popup_4e20025477bd7202e661c9ce480c037c.setContent(html_bb135893c5c2477e28157282112e74ed);
+            
+        
+
+        marker_616918107160c424bb48a5872ed822be.bindPopup(popup_4e20025477bd7202e661c9ce480c037c)
+        ;
+
+        
+    
+    
+            var marker_8f93aa1d60a14eeeca1143e364a01fb7 = L.marker(
+                [37.253894888712104, -119.61438873320435],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_7d9a10a339fd690d9210463a18c8518f = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8f93aa1d60a14eeeca1143e364a01fb7.setIcon(icon_7d9a10a339fd690d9210463a18c8518f);
+        
+    
+        var popup_6ee01758ec180ca2c5bcc1afba8232ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e01d62688cff6d87a88636a3bf7895ad = $(`<div id="html_e01d62688cff6d87a88636a3bf7895ad" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>869000<br><strong>Comparitive House Area sqft:</strong>499</div>`)[0];
+                popup_6ee01758ec180ca2c5bcc1afba8232ad.setContent(html_e01d62688cff6d87a88636a3bf7895ad);
+            
+        
+
+        marker_8f93aa1d60a14eeeca1143e364a01fb7.bindPopup(popup_6ee01758ec180ca2c5bcc1afba8232ad)
+        ;
+
+        
+    
+    
+            var marker_b2e6f4d1b0fe78a2af7f13b3a955bfc1 = L.marker(
+                [38.99933966538301, -105.54877269595791],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_e605f7292922d3e77c29c4be6cfce5f8 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b2e6f4d1b0fe78a2af7f13b3a955bfc1.setIcon(icon_e605f7292922d3e77c29c4be6cfce5f8);
+        
+    
+        var popup_64e367f95340e8ceeed74399c729043d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf019d73c2c359505e41241c7e1e314f = $(`<div id="html_bf019d73c2c359505e41241c7e1e314f" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>662000<br><strong>Comparitive House Area sqft:</strong>655</div>`)[0];
+                popup_64e367f95340e8ceeed74399c729043d.setContent(html_bf019d73c2c359505e41241c7e1e314f);
+            
+        
+
+        marker_b2e6f4d1b0fe78a2af7f13b3a955bfc1.bindPopup(popup_64e367f95340e8ceeed74399c729043d)
+        ;
+
+        
+    
+    
+            var marker_36ba39a51327b265c1760a2933c84465 = L.marker(
+                [41.62089484862288, -72.72785582518726],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_35d9bef3fcbba99ed2902fd62b7987f8 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_36ba39a51327b265c1760a2933c84465.setIcon(icon_35d9bef3fcbba99ed2902fd62b7987f8);
+        
+    
+        var popup_af833ebeec1498b6149b588de12f6d5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef1bf9f20a012b7f8bbc6cb868112d36 = $(`<div id="html_ef1bf9f20a012b7f8bbc6cb868112d36" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>460000<br><strong>Comparitive House Area sqft:</strong>943</div>`)[0];
+                popup_af833ebeec1498b6149b588de12f6d5a.setContent(html_ef1bf9f20a012b7f8bbc6cb868112d36);
+            
+        
+
+        marker_36ba39a51327b265c1760a2933c84465.bindPopup(popup_af833ebeec1498b6149b588de12f6d5a)
+        ;
+
+        
+    
+    
+            var marker_495540862e4322a3e512e869338ae96e = L.marker(
+                [38.982685337723325, -75.49756138697988],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_ff18f6f0fcb71d8f7783852e0793b74c = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_495540862e4322a3e512e869338ae96e.setIcon(icon_ff18f6f0fcb71d8f7783852e0793b74c);
+        
+    
+        var popup_14aca2a09ba17b86fa8cd8285d3e4571 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a7a9ade21125fd7db569c0f764e3965 = $(`<div id="html_2a7a9ade21125fd7db569c0f764e3965" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>403000<br><strong>Comparitive House Area sqft:</strong>1076</div>`)[0];
+                popup_14aca2a09ba17b86fa8cd8285d3e4571.setContent(html_2a7a9ade21125fd7db569c0f764e3965);
+            
+        
+
+        marker_495540862e4322a3e512e869338ae96e.bindPopup(popup_14aca2a09ba17b86fa8cd8285d3e4571)
+        ;
+
+        
+    
+    
+            var marker_ea8d53e0de78212d26623ef0fcc9a813 = L.marker(
+                [38.89837844615375, -77.02180859388534],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_376e8a3ac6d5b0896695397a61460244 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ea8d53e0de78212d26623ef0fcc9a813.setIcon(icon_376e8a3ac6d5b0896695397a61460244);
+        
+    
+        var popup_b588b91c5ef0f541fe9edd85d5f9d4b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53093325f0ee7214c212268bb9cef806 = $(`<div id="html_53093325f0ee7214c212268bb9cef806" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>1195000<br><strong>Comparitive House Area sqft:</strong>363</div>`)[0];
+                popup_b588b91c5ef0f541fe9edd85d5f9d4b9.setContent(html_53093325f0ee7214c212268bb9cef806);
+            
+        
+
+        marker_ea8d53e0de78212d26623ef0fcc9a813.bindPopup(popup_b588b91c5ef0f541fe9edd85d5f9d4b9)
+        ;
+
+        
+    
+    
+            var marker_ac380eb113081c648ff801b022405bf5 = L.marker(
+                [28.65889405831818, -82.50397028130844],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_6cf9ac9da4b717a045b0e3371c213324 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ac380eb113081c648ff801b022405bf5.setIcon(icon_6cf9ac9da4b717a045b0e3371c213324);
+        
+    
+        var popup_a7ed1cd4f156bd34ea7d567e5ddd7e65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8092848607b58a05f6b6543eaf621b7b = $(`<div id="html_8092848607b58a05f6b6543eaf621b7b" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>433000<br><strong>Comparitive House Area sqft:</strong>1001</div>`)[0];
+                popup_a7ed1cd4f156bd34ea7d567e5ddd7e65.setContent(html_8092848607b58a05f6b6543eaf621b7b);
+            
+        
+
+        marker_ac380eb113081c648ff801b022405bf5.bindPopup(popup_a7ed1cd4f156bd34ea7d567e5ddd7e65)
+        ;
+
+        
+    
+    
+            var marker_a991547581cbe1fdc368b62df0a03807 = L.marker(
+                [32.647998651064185, -83.44647345980864],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_ce136c1f8dc8a47b31bef3a4cba154c8 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a991547581cbe1fdc368b62df0a03807.setIcon(icon_ce136c1f8dc8a47b31bef3a4cba154c8);
+        
+    
+        var popup_ae9507273d03bf6d6f07b1b22072848d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bc751cabea007a0a24439361d5ca191 = $(`<div id="html_1bc751cabea007a0a24439361d5ca191" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>388000<br><strong>Comparitive House Area sqft:</strong>1118</div>`)[0];
+                popup_ae9507273d03bf6d6f07b1b22072848d.setContent(html_1bc751cabea007a0a24439361d5ca191);
+            
+        
+
+        marker_a991547581cbe1fdc368b62df0a03807.bindPopup(popup_ae9507273d03bf6d6f07b1b22072848d)
+        ;
+
+        
+    
+    
+            var marker_2273e9816cd715a9adab65c5c4e4c5c0 = L.marker(
+                [20.14889874154337, -156.21762632280317],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_97f2d855dc9ec43bc3ca2ab29fe9af0a = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2273e9816cd715a9adab65c5c4e4c5c0.setIcon(icon_97f2d855dc9ec43bc3ca2ab29fe9af0a);
+        
+    
+        var popup_e8ae7cd8ab64bc875f682a5fa9de9077 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3f185991437558bd4322d71763f1637 = $(`<div id="html_d3f185991437558bd4322d71763f1637" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>947000<br><strong>Comparitive House Area sqft:</strong>458</div>`)[0];
+                popup_e8ae7cd8ab64bc875f682a5fa9de9077.setContent(html_d3f185991437558bd4322d71763f1637);
+            
+        
+
+        marker_2273e9816cd715a9adab65c5c4e4c5c0.bindPopup(popup_e8ae7cd8ab64bc875f682a5fa9de9077)
+        ;
+
+        
+    
+    
+            var marker_61a2f23319f19fca543cf074d4dc354d = L.marker(
+                [44.38830348391967, -114.65981673436995],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_7c120149a626071a6e055d1604b351d4 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_61a2f23319f19fca543cf074d4dc354d.setIcon(icon_7c120149a626071a6e055d1604b351d4);
+        
+    
+        var popup_ca40a1966abe6db4479a803f62fee5af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96774fb87f6c111f110dbc4133038fec = $(`<div id="html_96774fb87f6c111f110dbc4133038fec" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>491000<br><strong>Comparitive House Area sqft:</strong>883</div>`)[0];
+                popup_ca40a1966abe6db4479a803f62fee5af.setContent(html_96774fb87f6c111f110dbc4133038fec);
+            
+        
+
+        marker_61a2f23319f19fca543cf074d4dc354d.bindPopup(popup_ca40a1966abe6db4479a803f62fee5af)
+        ;
+
+        
+    
+    
+            var marker_14845cb3c7db56c7eb9e528008946af3 = L.marker(
+                [40.06267347605749, -89.19574045675363],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_438bb921553a145685b29521af1f35be = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_14845cb3c7db56c7eb9e528008946af3.setIcon(icon_438bb921553a145685b29521af1f35be);
+        
+    
+        var popup_6e683dc1e98f3e0ad7d9eabbafb979a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b8cb17ac074a57c98c9b432025b85bd = $(`<div id="html_4b8cb17ac074a57c98c9b432025b85bd" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>289000<br><strong>Comparitive House Area sqft:</strong>1501</div>`)[0];
+                popup_6e683dc1e98f3e0ad7d9eabbafb979a8.setContent(html_4b8cb17ac074a57c98c9b432025b85bd);
+            
+        
+
+        marker_14845cb3c7db56c7eb9e528008946af3.bindPopup(popup_6e683dc1e98f3e0ad7d9eabbafb979a8)
+        ;
+
+        
+    
+    
+            var marker_22dc43bbf32a6f9f61377bce0d566b75 = L.marker(
+                [39.91212256329726, -86.27067081277526],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_8143fd5d0c3d493a4f24326250c762c2 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_22dc43bbf32a6f9f61377bce0d566b75.setIcon(icon_8143fd5d0c3d493a4f24326250c762c2);
+        
+    
+        var popup_74cfd49db499a28778ced9afae453575 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c517f86e0daa9c78c7128284cf5f8631 = $(`<div id="html_c517f86e0daa9c78c7128284cf5f8631" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>261000<br><strong>Comparitive House Area sqft:</strong>1662</div>`)[0];
+                popup_74cfd49db499a28778ced9afae453575.setContent(html_c517f86e0daa9c78c7128284cf5f8631);
+            
+        
+
+        marker_22dc43bbf32a6f9f61377bce0d566b75.bindPopup(popup_74cfd49db499a28778ced9afae453575)
+        ;
+
+        
+    
+    
+            var marker_bff5206c7e454b8f991b092a49674bd4 = L.marker(
+                [42.07550243132768, -93.50039607537926],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_5351ac6363a9c879e24497b5f159265e = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bff5206c7e454b8f991b092a49674bd4.setIcon(icon_5351ac6363a9c879e24497b5f159265e);
+        
+    
+        var popup_fb3e264071ab9c87a2b3ef0611cdb739 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2622a5a3dfbfcd6ff89d488a4d44fd5b = $(`<div id="html_2622a5a3dfbfcd6ff89d488a4d44fd5b" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>241000<br><strong>Comparitive House Area sqft:</strong>1800</div>`)[0];
+                popup_fb3e264071ab9c87a2b3ef0611cdb739.setContent(html_2622a5a3dfbfcd6ff89d488a4d44fd5b);
+            
+        
+
+        marker_bff5206c7e454b8f991b092a49674bd4.bindPopup(popup_fb3e264071ab9c87a2b3ef0611cdb739)
+        ;
+
+        
+    
+    
+            var marker_371f8e4fc3be721b076e6c484779035d = L.marker(
+                [38.484403669487705, -98.38277207357518],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_430e0b106a667b6ad607a0ddfd9258eb = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_371f8e4fc3be721b076e6c484779035d.setIcon(icon_430e0b106a667b6ad607a0ddfd9258eb);
+        
+    
+        var popup_8588e7e140c3f84392fd44d9f9cedac3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d3f9134d582571678b7e79eb6d8a2b3 = $(`<div id="html_5d3f9134d582571678b7e79eb6d8a2b3" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>288000<br><strong>Comparitive House Area sqft:</strong>1506</div>`)[0];
+                popup_8588e7e140c3f84392fd44d9f9cedac3.setContent(html_5d3f9134d582571678b7e79eb6d8a2b3);
+            
+        
+
+        marker_371f8e4fc3be721b076e6c484779035d.bindPopup(popup_8588e7e140c3f84392fd44d9f9cedac3)
+        ;
+
+        
+    
+    
+            var marker_808d15af19b0ed56310e07406622fbed = L.marker(
+                [37.52693228579758, -85.29211100755428],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_f862688ac5e74b60e30c22fb6e360a3d = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_808d15af19b0ed56310e07406622fbed.setIcon(icon_f862688ac5e74b60e30c22fb6e360a3d);
+        
+    
+        var popup_1feb0fa3936b88f40f76eeec3f173800 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c27cc0d8b005f2ca0435f340fbe10c67 = $(`<div id="html_c27cc0d8b005f2ca0435f340fbe10c67" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>271000<br><strong>Comparitive House Area sqft:</strong>1600</div>`)[0];
+                popup_1feb0fa3936b88f40f76eeec3f173800.setContent(html_c27cc0d8b005f2ca0435f340fbe10c67);
+            
+        
+
+        marker_808d15af19b0ed56310e07406622fbed.bindPopup(popup_1feb0fa3936b88f40f76eeec3f173800)
+        ;
+
+        
+    
+    
+            var marker_3ffcbf32aebd968f33063e24cb929987 = L.marker(
+                [31.061170988123184, -91.98856423817978],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_93146866c5e7b1aae50ce694b3443f84 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3ffcbf32aebd968f33063e24cb929987.setIcon(icon_93146866c5e7b1aae50ce694b3443f84);
+        
+    
+        var popup_da2e4450559ad3d39585d68d9096b92f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc2d54a7f2e59157dd8d51a947c57232 = $(`<div id="html_cc2d54a7f2e59157dd8d51a947c57232" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>248000<br><strong>Comparitive House Area sqft:</strong>1749</div>`)[0];
+                popup_da2e4450559ad3d39585d68d9096b92f.setContent(html_cc2d54a7f2e59157dd8d51a947c57232);
+            
+        
+
+        marker_3ffcbf32aebd968f33063e24cb929987.bindPopup(popup_da2e4450559ad3d39585d68d9096b92f)
+        ;
+
+        
+    
+    
+            var marker_16ae2132b8d85d49c3dbeb33bc9b026e = L.marker(
+                [45.37856800973397, -69.23244781343445],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_b8b56d91a571a1ffa04ac16c5fb9c429 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_16ae2132b8d85d49c3dbeb33bc9b026e.setIcon(icon_b8b56d91a571a1ffa04ac16c5fb9c429);
+        
+    
+        var popup_2d1902894dbbc18b879c235d2770d5f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0facea07f545065ba1c8a2660c51f0ec = $(`<div id="html_0facea07f545065ba1c8a2660c51f0ec" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>414000<br><strong>Comparitive House Area sqft:</strong>1047</div>`)[0];
+                popup_2d1902894dbbc18b879c235d2770d5f9.setContent(html_0facea07f545065ba1c8a2660c51f0ec);
+            
+        
+
+        marker_16ae2132b8d85d49c3dbeb33bc9b026e.bindPopup(popup_2d1902894dbbc18b879c235d2770d5f9)
+        ;
+
+        
+    
+    
+            var marker_0b0042b2f6bbe384bc076652b0dd2937 = L.marker(
+                [39.03702097199749, -76.77057507690161],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_f1a9e8180fc2b908cd71a985d3b5b2de = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0b0042b2f6bbe384bc076652b0dd2937.setIcon(icon_f1a9e8180fc2b908cd71a985d3b5b2de);
+        
+    
+        var popup_07a3ca1388d479ce49edf801e2fbeb8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bfce3388c45bc48735c0e5c0f85ffc3 = $(`<div id="html_5bfce3388c45bc48735c0e5c0f85ffc3" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>513000<br><strong>Comparitive House Area sqft:</strong>845</div>`)[0];
+                popup_07a3ca1388d479ce49edf801e2fbeb8c.setContent(html_5bfce3388c45bc48735c0e5c0f85ffc3);
+            
+        
+
+        marker_0b0042b2f6bbe384bc076652b0dd2937.bindPopup(popup_07a3ca1388d479ce49edf801e2fbeb8c)
+        ;
+
+        
+    
+    
+            var marker_262379bb7dfe86fed83b63437afdad42 = L.marker(
+                [42.26704124778922, -71.84340676994377],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_a3b7a80b06c5bb967db4055e3ab954d4 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_262379bb7dfe86fed83b63437afdad42.setIcon(icon_a3b7a80b06c5bb967db4055e3ab954d4);
+        
+    
+        var popup_1530ad9aa7b176353fffa521dc011be9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a71c6595c50dbcd544d222bb995a7a8 = $(`<div id="html_9a71c6595c50dbcd544d222bb995a7a8" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>646000<br><strong>Comparitive House Area sqft:</strong>671</div>`)[0];
+                popup_1530ad9aa7b176353fffa521dc011be9.setContent(html_9a71c6595c50dbcd544d222bb995a7a8);
+            
+        
+
+        marker_262379bb7dfe86fed83b63437afdad42.bindPopup(popup_1530ad9aa7b176353fffa521dc011be9)
+        ;
+
+        
+    
+    
+            var marker_d1aee0afde93091af2972ddf178cfa6f = L.marker(
+                [44.3403584281452, -85.42558192179358],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_0fba2602813fc71cae1993b189c2f27f = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d1aee0afde93091af2972ddf178cfa6f.setIcon(icon_0fba2602813fc71cae1993b189c2f27f);
+        
+    
+        var popup_4ba278b5f3bb24c852a8a150303f356c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35b85229447ac7967ea9b3465d33d7c9 = $(`<div id="html_35b85229447ac7967ea9b3465d33d7c9" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>267000<br><strong>Comparitive House Area sqft:</strong>1624</div>`)[0];
+                popup_4ba278b5f3bb24c852a8a150303f356c.setContent(html_35b85229447ac7967ea9b3465d33d7c9);
+            
+        
+
+        marker_d1aee0afde93091af2972ddf178cfa6f.bindPopup(popup_4ba278b5f3bb24c852a8a150303f356c)
+        ;
+
+        
+    
+    
+            var marker_69397058afd54a2bdc46657152dabbc8 = L.marker(
+                [46.317018139687704, -94.31123738894185],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_cb0ad2478aa42f447f554c065581d37c = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_69397058afd54a2bdc46657152dabbc8.setIcon(icon_cb0ad2478aa42f447f554c065581d37c);
+        
+    
+        var popup_68ca757d9cf0ea62e084a28217733a6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_562f553434491d0776511ab2303d50e6 = $(`<div id="html_562f553434491d0776511ab2303d50e6" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>364000<br><strong>Comparitive House Area sqft:</strong>1191</div>`)[0];
+                popup_68ca757d9cf0ea62e084a28217733a6f.setContent(html_562f553434491d0776511ab2303d50e6);
+            
+        
+
+        marker_69397058afd54a2bdc46657152dabbc8.bindPopup(popup_68ca757d9cf0ea62e084a28217733a6f)
+        ;
+
+        
+    
+    
+            var marker_cf80ad1d6c377fcced5e12584196acd1 = L.marker(
+                [32.749801534175724, -89.66350130829375],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_53f05a89d325d9fdeb9f68dc617a51a3 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cf80ad1d6c377fcced5e12584196acd1.setIcon(icon_53f05a89d325d9fdeb9f68dc617a51a3);
+        
+    
+        var popup_00043092febaed9d504e994e1f9c1427 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44ed4519c0cab33605f169ea6d2005cc = $(`<div id="html_44ed4519c0cab33605f169ea6d2005cc" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>257000<br><strong>Comparitive House Area sqft:</strong>1687</div>`)[0];
+                popup_00043092febaed9d504e994e1f9c1427.setContent(html_44ed4519c0cab33605f169ea6d2005cc);
+            
+        
+
+        marker_cf80ad1d6c377fcced5e12584196acd1.bindPopup(popup_00043092febaed9d504e994e1f9c1427)
+        ;
+
+        
+    
+    
+            var marker_720c281b35d7dfafc72bdf87d80f329a = L.marker(
+                [38.36805363515973, -92.47744231074401],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_6506e36eabbf26da6cf0c11e1d26bd1a = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_720c281b35d7dfafc72bdf87d80f329a.setIcon(icon_6506e36eabbf26da6cf0c11e1d26bd1a);
+        
+    
+        var popup_ad987eb82b04fa50b6308a6a3b2916e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ac879d661b4f5059402f2648aac9f6e = $(`<div id="html_1ac879d661b4f5059402f2648aac9f6e" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>273000<br><strong>Comparitive House Area sqft:</strong>1589</div>`)[0];
+                popup_ad987eb82b04fa50b6308a6a3b2916e3.setContent(html_1ac879d661b4f5059402f2648aac9f6e);
+            
+        
+
+        marker_720c281b35d7dfafc72bdf87d80f329a.bindPopup(popup_ad987eb82b04fa50b6308a6a3b2916e3)
+        ;
+
+        
+    
+    
+            var marker_0e77dce09e5184a699d4305670adce52 = L.marker(
+                [47.033440693500935, -109.64685632824923],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_5aae36d0cc4a1a3bb41b69bb391493d7 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0e77dce09e5184a699d4305670adce52.setIcon(icon_5aae36d0cc4a1a3bb41b69bb391493d7);
+        
+    
+        var popup_d5f4ef3971209fa7c72a2bffb6f48646 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b00c4cb0537d6182399abfb3596a2274 = $(`<div id="html_b00c4cb0537d6182399abfb3596a2274" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>539000<br><strong>Comparitive House Area sqft:</strong>804</div>`)[0];
+                popup_d5f4ef3971209fa7c72a2bffb6f48646.setContent(html_b00c4cb0537d6182399abfb3596a2274);
+            
+        
+
+        marker_0e77dce09e5184a699d4305670adce52.bindPopup(popup_d5f4ef3971209fa7c72a2bffb6f48646)
+        ;
+
+        
+    
+    
+            var marker_376adc8bd9a4556cc0b583d85715d85a = L.marker(
+                [41.52780689020982, -99.81051493779842],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_4c420acfdc2b6734fec9ab97ef4f1498 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_376adc8bd9a4556cc0b583d85715d85a.setIcon(icon_4c420acfdc2b6734fec9ab97ef4f1498);
+        
+    
+        var popup_e2d20e3e146f991976b4e2ab86ca0750 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_756de67d29920487a53adedfdd3f3da7 = $(`<div id="html_756de67d29920487a53adedfdd3f3da7" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>290000<br><strong>Comparitive House Area sqft:</strong>1495</div>`)[0];
+                popup_e2d20e3e146f991976b4e2ab86ca0750.setContent(html_756de67d29920487a53adedfdd3f3da7);
+            
+        
+
+        marker_376adc8bd9a4556cc0b583d85715d85a.bindPopup(popup_e2d20e3e146f991976b4e2ab86ca0750)
+        ;
+
+        
+    
+    
+            var marker_30e863e4d60a0c0d7d2c2072437f3096 = L.marker(
+                [39.35482764691297, -116.65435595238647],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_0cf6b9bb880c44cb3cf545b0bf611c0e = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_30e863e4d60a0c0d7d2c2072437f3096.setIcon(icon_0cf6b9bb880c44cb3cf545b0bf611c0e);
+        
+    
+        var popup_d680b8ffbc4250917cc51f4929440c94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a00bf293537b9bb405de4a2a1fa9ba00 = $(`<div id="html_a00bf293537b9bb405de4a2a1fa9ba00" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>499000<br><strong>Comparitive House Area sqft:</strong>869</div>`)[0];
+                popup_d680b8ffbc4250917cc51f4929440c94.setContent(html_a00bf293537b9bb405de4a2a1fa9ba00);
+            
+        
+
+        marker_30e863e4d60a0c0d7d2c2072437f3096.bindPopup(popup_d680b8ffbc4250917cc51f4929440c94)
+        ;
+
+        
+    
+    
+            var marker_4ff521c2489219212d117752ff39dd55 = L.marker(
+                [43.68176172611066, -71.57906198290004],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_df3356da6c60da02c371c3fc56008d19 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4ff521c2489219212d117752ff39dd55.setIcon(icon_df3356da6c60da02c371c3fc56008d19);
+        
+    
+        var popup_51e605ad2c3d9189482c1f5be9fd3fd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6ee9d0e1e84e228d8efbf45c92c7eff = $(`<div id="html_f6ee9d0e1e84e228d8efbf45c92c7eff" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>499000<br><strong>Comparitive House Area sqft:</strong>869</div>`)[0];
+                popup_51e605ad2c3d9189482c1f5be9fd3fd8.setContent(html_f6ee9d0e1e84e228d8efbf45c92c7eff);
+            
+        
+
+        marker_4ff521c2489219212d117752ff39dd55.bindPopup(popup_51e605ad2c3d9189482c1f5be9fd3fd8)
+        ;
+
+        
+    
+    
+            var marker_4717aa60b2f0b9f827dd50b7290cfb81 = L.marker(
+                [40.19283878204817, -74.6618688363718],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_aa4d8fe62e2671fe53c8900f77bb371f = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4717aa60b2f0b9f827dd50b7290cfb81.setIcon(icon_aa4d8fe62e2671fe53c8900f77bb371f);
+        
+    
+        var popup_f5fc23a7597814da745126da9820beac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_948fbe0708d4e0e61fd28aca74181a6a = $(`<div id="html_948fbe0708d4e0e61fd28aca74181a6a" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>542000<br><strong>Comparitive House Area sqft:</strong>800</div>`)[0];
+                popup_f5fc23a7597814da745126da9820beac.setContent(html_948fbe0708d4e0e61fd28aca74181a6a);
+            
+        
+
+        marker_4717aa60b2f0b9f827dd50b7290cfb81.bindPopup(popup_f5fc23a7597814da745126da9820beac)
+        ;
+
+        
+    
+    
+            var marker_1786e0fa7c8966d1b9f6ce3cb6eeaabd = L.marker(
+                [34.421558301834814, -106.10784047639247],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_d5c74f6e74a1788169958c4b9a6be3d4 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1786e0fa7c8966d1b9f6ce3cb6eeaabd.setIcon(icon_d5c74f6e74a1788169958c4b9a6be3d4);
+        
+    
+        var popup_5b0ad02e1d3d740c34399b5c9ea87df9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b0eb53754f29095d5ade6597b1627da = $(`<div id="html_0b0eb53754f29095d5ade6597b1627da" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>396000<br><strong>Comparitive House Area sqft:</strong>1095</div>`)[0];
+                popup_5b0ad02e1d3d740c34399b5c9ea87df9.setContent(html_0b0eb53754f29095d5ade6597b1627da);
+            
+        
+
+        marker_1786e0fa7c8966d1b9f6ce3cb6eeaabd.bindPopup(popup_5b0ad02e1d3d740c34399b5c9ea87df9)
+        ;
+
+        
+    
+    
+            var marker_c5da786917bb37017d60c2720c83713d = L.marker(
+                [42.94335660110057, -75.50111020443045],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_208d56f1dfd5fcc86fe3476b62623daa = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c5da786917bb37017d60c2720c83713d.setIcon(icon_208d56f1dfd5fcc86fe3476b62623daa);
+        
+    
+        var popup_cb5330dc92a076ce1bf5d4c00c2305a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_515be91604785cade2b9fdd54797132c = $(`<div id="html_515be91604785cade2b9fdd54797132c" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>522000<br><strong>Comparitive House Area sqft:</strong>831</div>`)[0];
+                popup_cb5330dc92a076ce1bf5d4c00c2305a8.setContent(html_515be91604785cade2b9fdd54797132c);
+            
+        
+
+        marker_c5da786917bb37017d60c2720c83713d.bindPopup(popup_cb5330dc92a076ce1bf5d4c00c2305a8)
+        ;
+
+        
+    
+    
+            var marker_5f29f1712dfd5db4c3dc1b1c8fc01273 = L.marker(
+                [35.53769328532451, -79.33904918457344],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_fe5057971f2920c079e3716b4d6eec74 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5f29f1712dfd5db4c3dc1b1c8fc01273.setIcon(icon_fe5057971f2920c079e3716b4d6eec74);
+        
+    
+        var popup_ccd95721a530097576c73c8e2bae04ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60ecc18f2d08109a255f0e87445fc14e = $(`<div id="html_60ecc18f2d08109a255f0e87445fc14e" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>390000<br><strong>Comparitive House Area sqft:</strong>1112</div>`)[0];
+                popup_ccd95721a530097576c73c8e2bae04ad.setContent(html_60ecc18f2d08109a255f0e87445fc14e);
+            
+        
+
+        marker_5f29f1712dfd5db4c3dc1b1c8fc01273.bindPopup(popup_ccd95721a530097576c73c8e2bae04ad)
+        ;
+
+        
+    
+    
+            var marker_8f7c37a050ce5d6d15081a1fbae0ee56 = L.marker(
+                [47.44546543570713, -100.47012149779626],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_0844358999298e57b1fd6407881f88e2 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8f7c37a050ce5d6d15081a1fbae0ee56.setIcon(icon_0844358999298e57b1fd6407881f88e2);
+        
+    
+        var popup_c1eb4ff89998fb67fe88a9e379a9006a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b50219c0950b67ce953673ccc2bb5ec8 = $(`<div id="html_b50219c0950b67ce953673ccc2bb5ec8" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>296000<br><strong>Comparitive House Area sqft:</strong>1465</div>`)[0];
+                popup_c1eb4ff89998fb67fe88a9e379a9006a.setContent(html_b50219c0950b67ce953673ccc2bb5ec8);
+            
+        
+
+        marker_8f7c37a050ce5d6d15081a1fbae0ee56.bindPopup(popup_c1eb4ff89998fb67fe88a9e379a9006a)
+        ;
+
+        
+    
+    
+            var marker_b6ef7f2eff791981aee682f1c68a5d28 = L.marker(
+                [40.29607340765351, -82.78820639463287],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_b79e8552030ba89456299d6146168cfa = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b6ef7f2eff791981aee682f1c68a5d28.setIcon(icon_b79e8552030ba89456299d6146168cfa);
+        
+    
+        var popup_ad75801504cdef9b9c772bde670a053f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e36de2906f236e38869e5237e7be6f6 = $(`<div id="html_5e36de2906f236e38869e5237e7be6f6" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>255000<br><strong>Comparitive House Area sqft:</strong>1701</div>`)[0];
+                popup_ad75801504cdef9b9c772bde670a053f.setContent(html_5e36de2906f236e38869e5237e7be6f6);
+            
+        
+
+        marker_b6ef7f2eff791981aee682f1c68a5d28.bindPopup(popup_ad75801504cdef9b9c772bde670a053f)
+        ;
+
+        
+    
+    
+            var marker_65f25be5869dac533bf8b223f0721473 = L.marker(
+                [35.584949944469514, -97.50582015711895],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_6962ef9beaa33ab9389cb862341b442f = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_65f25be5869dac533bf8b223f0721473.setIcon(icon_6962ef9beaa33ab9389cb862341b442f);
+        
+    
+        var popup_2eb05c2fe43ed273dd0691966c956049 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cb90b73bc21de35da9b372095ec921f = $(`<div id="html_9cb90b73bc21de35da9b372095ec921f" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>247000<br><strong>Comparitive House Area sqft:</strong>1756</div>`)[0];
+                popup_2eb05c2fe43ed273dd0691966c956049.setContent(html_9cb90b73bc21de35da9b372095ec921f);
+            
+        
+
+        marker_65f25be5869dac533bf8b223f0721473.bindPopup(popup_2eb05c2fe43ed273dd0691966c956049)
+        ;
+
+        
+    
+    
+            var marker_1d1235a1018289b1e75ede6f16ecc564 = L.marker(
+                [43.937317506889805, -120.55532730535728],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_df7d1b2a961095a8363f106cba552028 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1d1235a1018289b1e75ede6f16ecc564.setIcon(icon_df7d1b2a961095a8363f106cba552028);
+        
+    
+        var popup_1c272de5c7ef36084291180d42f5f1d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45e7fb495d24a0159911247eabc7750d = $(`<div id="html_45e7fb495d24a0159911247eabc7750d" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>522000<br><strong>Comparitive House Area sqft:</strong>831</div>`)[0];
+                popup_1c272de5c7ef36084291180d42f5f1d3.setContent(html_45e7fb495d24a0159911247eabc7750d);
+            
+        
+
+        marker_1d1235a1018289b1e75ede6f16ecc564.bindPopup(popup_1c272de5c7ef36084291180d42f5f1d3)
+        ;
+
+        
+    
+    
+            var marker_3e1a377f533fd2ce24614a91fe7753e5 = L.marker(
+                [40.874137390013374, -77.8000378488181],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_df1e362f18b888e784776bfa2c23c6d5 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3e1a377f533fd2ce24614a91fe7753e5.setIcon(icon_df1e362f18b888e784776bfa2c23c6d5);
+        
+    
+        var popup_9d90020098b5ed4e9fc12ec8f998f49e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0660e9c7f4b63f64442ac7ebb119d866 = $(`<div id="html_0660e9c7f4b63f64442ac7ebb119d866" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>319000<br><strong>Comparitive House Area sqft:</strong>1359</div>`)[0];
+                popup_9d90020098b5ed4e9fc12ec8f998f49e.setContent(html_0660e9c7f4b63f64442ac7ebb119d866);
+            
+        
+
+        marker_3e1a377f533fd2ce24614a91fe7753e5.bindPopup(popup_9d90020098b5ed4e9fc12ec8f998f49e)
+        ;
+
+        
+    
+    
+            var marker_4b643bafe25ccfc11806db8a95be098b = L.marker(
+                [41.69148952545731, -71.5708604042548],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_d6868c132aceba44335247160887bcc6 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4b643bafe25ccfc11806db8a95be098b.setIcon(icon_d6868c132aceba44335247160887bcc6);
+        
+    
+        var popup_f9e62b987fda827de15f0520fca4761f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_480b9abc37463c21526d7de266db7680 = $(`<div id="html_480b9abc37463c21526d7de266db7680" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>518000<br><strong>Comparitive House Area sqft:</strong>837</div>`)[0];
+                popup_f9e62b987fda827de15f0520fca4761f.setContent(html_480b9abc37463c21526d7de266db7680);
+            
+        
+
+        marker_4b643bafe25ccfc11806db8a95be098b.bindPopup(popup_f9e62b987fda827de15f0520fca4761f)
+        ;
+
+        
+    
+    
+            var marker_d568b6947a278c9dbcfd8e90b45ebd39 = L.marker(
+                [33.903680752231125, -80.89540604318552],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_4826504e093571596f2da01e6ab967a4 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d568b6947a278c9dbcfd8e90b45ebd39.setIcon(icon_4826504e093571596f2da01e6ab967a4);
+        
+    
+        var popup_d61e7b47ad447b56ab55ff4592c0c6ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac5c0bae7c924858b01db8d9e9087c9a = $(`<div id="html_ac5c0bae7c924858b01db8d9e9087c9a" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>402000<br><strong>Comparitive House Area sqft:</strong>1079</div>`)[0];
+                popup_d61e7b47ad447b56ab55ff4592c0c6ec.setContent(html_ac5c0bae7c924858b01db8d9e9087c9a);
+            
+        
+
+        marker_d568b6947a278c9dbcfd8e90b45ebd39.bindPopup(popup_d61e7b47ad447b56ab55ff4592c0c6ec)
+        ;
+
+        
+    
+    
+            var marker_e6e3eb4fe5befcafa3cdb9bb5086da75 = L.marker(
+                [44.435973156474375, -100.23295560524708],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_c4836e073466b146584cafab4a9c2902 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e6e3eb4fe5befcafa3cdb9bb5086da75.setIcon(icon_c4836e073466b146584cafab4a9c2902);
+        
+    
+        var popup_7f7a8fe7362ac8693a64f8eaf0fa9c1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce3f32c9459d2499904f629d29feaa65 = $(`<div id="html_ce3f32c9459d2499904f629d29feaa65" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>340000<br><strong>Comparitive House Area sqft:</strong>1275</div>`)[0];
+                popup_7f7a8fe7362ac8693a64f8eaf0fa9c1b.setContent(html_ce3f32c9459d2499904f629d29feaa65);
+            
+        
+
+        marker_e6e3eb4fe5befcafa3cdb9bb5086da75.bindPopup(popup_7f7a8fe7362ac8693a64f8eaf0fa9c1b)
+        ;
+
+        
+    
+    
+            var marker_1289b1c39aac2d7798422942ffd8b667 = L.marker(
+                [35.84252384457215, -86.34798928628635],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_4729b61045e03af21b108ba872c6c34e = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1289b1c39aac2d7798422942ffd8b667.setIcon(icon_4729b61045e03af21b108ba872c6c34e);
+        
+    
+        var popup_8fa9067dde8894fb99578b926c799b9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6504c66d4261f18e6f3ce6748ec74f22 = $(`<div id="html_6504c66d4261f18e6f3ce6748ec74f22" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>397000<br><strong>Comparitive House Area sqft:</strong>1092</div>`)[0];
+                popup_8fa9067dde8894fb99578b926c799b9c.setContent(html_6504c66d4261f18e6f3ce6748ec74f22);
+            
+        
+
+        marker_1289b1c39aac2d7798422942ffd8b667.bindPopup(popup_8fa9067dde8894fb99578b926c799b9c)
+        ;
+
+        
+    
+    
+            var marker_8ec7455a9ef0f82ccdcdd294245ecd1c = L.marker(
+                [31.49517292598851, -99.35787337649897],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_89d149c9f0cca5429b8284e70f998b71 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8ec7455a9ef0f82ccdcdd294245ecd1c.setIcon(icon_89d149c9f0cca5429b8284e70f998b71);
+        
+    
+        var popup_66064cf709166e07b9aa9ff7f1f9d6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d50c2045fab18e170ba5d50ea7c10ff = $(`<div id="html_5d50c2045fab18e170ba5d50ea7c10ff" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>349000<br><strong>Comparitive House Area sqft:</strong>1242</div>`)[0];
+                popup_66064cf709166e07b9aa9ff7f1f9d6f0.setContent(html_5d50c2045fab18e170ba5d50ea7c10ff);
+            
+        
+
+        marker_8ec7455a9ef0f82ccdcdd294245ecd1c.bindPopup(popup_66064cf709166e07b9aa9ff7f1f9d6f0)
+        ;
+
+        
+    
+    
+            var marker_5097873e2168adc81e1802e3c1bca83f = L.marker(
+                [39.32521344208082, -111.67783753070134],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_7a4226c3a0a70db3feeef84aecc6e703 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5097873e2168adc81e1802e3c1bca83f.setIcon(icon_7a4226c3a0a70db3feeef84aecc6e703);
+        
+    
+        var popup_b0f592ecb7e89d4fad978bdfe8f59163 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef0200ebb33775355c04d014cf18fb6b = $(`<div id="html_ef0200ebb33775355c04d014cf18fb6b" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>620000<br><strong>Comparitive House Area sqft:</strong>699</div>`)[0];
+                popup_b0f592ecb7e89d4fad978bdfe8f59163.setContent(html_ef0200ebb33775355c04d014cf18fb6b);
+            
+        
+
+        marker_5097873e2168adc81e1802e3c1bca83f.bindPopup(popup_b0f592ecb7e89d4fad978bdfe8f59163)
+        ;
+
+        
+    
+    
+            var marker_d12ebb7643ba2be787d5238bb5baf414 = L.marker(
+                [44.07439915919234, -72.65947383995099],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_34e1fe5162e52e92b66d563383377eb4 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d12ebb7643ba2be787d5238bb5baf414.setIcon(icon_34e1fe5162e52e92b66d563383377eb4);
+        
+    
+        var popup_08ca418756f9bfd5ee00b017c39a289a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d951007e9bb90ad5d0eed2b65bdb3b5 = $(`<div id="html_5d951007e9bb90ad5d0eed2b65bdb3b5" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>395800<br><strong>Comparitive House Area sqft:</strong>1096</div>`)[0];
+                popup_08ca418756f9bfd5ee00b017c39a289a.setContent(html_5d951007e9bb90ad5d0eed2b65bdb3b5);
+            
+        
+
+        marker_d12ebb7643ba2be787d5238bb5baf414.bindPopup(popup_08ca418756f9bfd5ee00b017c39a289a)
+        ;
+
+        
+    
+    
+            var marker_3dc74546906f6b393e9bfb6549764652 = L.marker(
+                [37.515059936575014, -78.78931517672089],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_1767cc9deb174f9e62abc156c15a4146 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3dc74546906f6b393e9bfb6549764652.setIcon(icon_1767cc9deb174f9e62abc156c15a4146);
+        
+    
+        var popup_5f7c3e8479d11c100a679f0ecc424cae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2838b4eb44240c61d2da5e7765fa510 = $(`<div id="html_d2838b4eb44240c61d2da5e7765fa510" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>416000<br><strong>Comparitive House Area sqft:</strong>1042</div>`)[0];
+                popup_5f7c3e8479d11c100a679f0ecc424cae.setContent(html_d2838b4eb44240c61d2da5e7765fa510);
+            
+        
+
+        marker_3dc74546906f6b393e9bfb6549764652.bindPopup(popup_5f7c3e8479d11c100a679f0ecc424cae)
+        ;
+
+        
+    
+    
+            var marker_08c6c2fba4f53a71184bb5814aadb59a = L.marker(
+                [47.37537933179685, -120.4489812152016],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_f1d0f3700b315490fa8fa8a7afb4fa60 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_08c6c2fba4f53a71184bb5814aadb59a.setIcon(icon_f1d0f3700b315490fa8fa8a7afb4fa60);
+        
+    
+        var popup_1fc0e064d9cf08cddfedef1872802e9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05186e8f4ea354c047b641998ecaee07 = $(`<div id="html_05186e8f4ea354c047b641998ecaee07" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>677000<br><strong>Comparitive House Area sqft:</strong>640</div>`)[0];
+                popup_1fc0e064d9cf08cddfedef1872802e9a.setContent(html_05186e8f4ea354c047b641998ecaee07);
+            
+        
+
+        marker_08c6c2fba4f53a71184bb5814aadb59a.bindPopup(popup_1fc0e064d9cf08cddfedef1872802e9a)
+        ;
+
+        
+    
+    
+            var marker_7deb1b2125cd7311e31aac8c4447010c = L.marker(
+                [38.638439624364274, -80.6166804380073],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_3c532694731b5556f26aff423629dc85 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7deb1b2125cd7311e31aac8c4447010c.setIcon(icon_3c532694731b5556f26aff423629dc85);
+        
+    
+        var popup_0e096cf49f6df05c821cca01371780ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0defc6446e2b79b0964ba2660401e729 = $(`<div id="html_0defc6446e2b79b0964ba2660401e729" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>261000<br><strong>Comparitive House Area sqft:</strong>1662</div>`)[0];
+                popup_0e096cf49f6df05c821cca01371780ce.setContent(html_0defc6446e2b79b0964ba2660401e729);
+            
+        
+
+        marker_7deb1b2125cd7311e31aac8c4447010c.bindPopup(popup_0e096cf49f6df05c821cca01371780ce)
+        ;
+
+        
+    
+    
+            var marker_36c21239dd7b65ff878a1505b93e4ae3 = L.marker(
+                [44.635044961652504, -90.01422478448723],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_69273837cd7949b1a41d8b5779ed9375 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_36c21239dd7b65ff878a1505b93e4ae3.setIcon(icon_69273837cd7949b1a41d8b5779ed9375);
+        
+    
+        var popup_e62cd2b81d75ed25acd9472c1e062bea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ff1be77903f481329b3b1f19d143165 = $(`<div id="html_0ff1be77903f481329b3b1f19d143165" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>326000<br><strong>Comparitive House Area sqft:</strong>1330</div>`)[0];
+                popup_e62cd2b81d75ed25acd9472c1e062bea.setContent(html_0ff1be77903f481329b3b1f19d143165);
+            
+        
+
+        marker_36c21239dd7b65ff878a1505b93e4ae3.bindPopup(popup_e62cd2b81d75ed25acd9472c1e062bea)
+        ;
+
+        
+    
+    
+            var marker_d7c0de229d305d00ab123f3e99149dcf = L.marker(
+                [43.000697315185285, -107.55190182272793],
+                {"radius": 10}
+            ).addTo(feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c);
+        
+    
+            var icon_a9defee9cc08a8b7c72f1ab2adac1b74 = L.AwesomeMarkers.icon(
+                {"alpha": 0.1, "extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d7c0de229d305d00ab123f3e99149dcf.setIcon(icon_a9defee9cc08a8b7c72f1ab2adac1b74);
+        
+    
+        var popup_5e3e234e4a9effabc713f4c4cc1602ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c76ed815d71edd99ee9dab22160ed5af = $(`<div id="html_c76ed815d71edd99ee9dab22160ed5af" style="width: 100.0%; height: 100.0%;"><strong>States house_price : $</strong>461000<br><strong>Comparitive House Area sqft:</strong>940</div>`)[0];
+                popup_5e3e234e4a9effabc713f4c4cc1602ef.setContent(html_c76ed815d71edd99ee9dab22160ed5af);
+            
+        
+
+        marker_d7c0de229d305d00ab123f3e99149dcf.bindPopup(popup_5e3e234e4a9effabc713f4c4cc1602ef)
+        ;
+
+        
+    
+    
+            var layer_control_aa1e75a4eaa495f43e4ffa8ed082c105 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_b89f99fa593db74411077dad02fb658f,
+                },
+                overlays :  {
+                    "Query Search" : feature_group_d071aa47a10f40c3aeabea3ed7fc7c5c,
+                },
+            };
+            L.control.layers(
+                layer_control_aa1e75a4eaa495f43e4ffa8ed082c105.base_layers,
+                layer_control_aa1e75a4eaa495f43e4ffa8ed082c105.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_9f3eeed25ebc4733d232535177410608);
+        
+</script>
+</html>
