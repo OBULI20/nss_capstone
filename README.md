@@ -1,7 +1,7 @@
-# nss_capstone
-capstone project
-Capstone for Nashville Software School Data Analytics Program
-Completion date: December 2024
+###Consumers affordability to buy house
+
+##USA Housing market 
+
 
 Table of Contents
 Overview
@@ -22,7 +22,7 @@ Using Python, I scrapped data for house prices from websites and converted it in
 
 
 Analyzing the Data
-I did EDA around median income in each state and compared with influencing factors affecting savings for down payment and mortgage payments. 
+I did Exploratory Data Analysis around median income,KPI(Key performance indicator) in each state and compared with influencing factors affecting savings for down payment and mortgage payments. 
 
 
 Visualizing the Data
@@ -45,7 +45,10 @@ Web scraping
   * www.edweek.org
 
 Conclusion:
-         The chances for buying houses are increasing currently. With the in Federal Rate, the tendency towards buying houses is increasing. Based on the chart below, with the analysis over a period of 2014 -2023, this is evident.
+         The chances for buying houses are increasing currently. With the in Federal Rate, the tendency towards buying houses is increasing. Based on the chart below, with the analysis over the period of 2014 -2023, this is evident.
  
+
+Capstone for Nashville Software School Data Analytics Program
+Completion date: December 2024
        
 
