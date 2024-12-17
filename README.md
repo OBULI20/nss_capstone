@@ -17,14 +17,12 @@ The primary objective of this project is to analyze the effects of rising housin
 Data Question
 How do higher prices impact consumers affordability to buy house? 
 
-Methodologies
-
 Gathering the Data
-Using Python, I scrapped data for house prices from www.businessinsider.com and created and converted it into a data frame. For the map, I downloaded a Json file which had the polygon geometry for states, and I created a centroid to facilitate popups at the centroid. Collected historical data on housing prices, income levels, mortgage rates, and other relevant economic indicators by importing from government sources, real estate platforms, and financial institutions.
+Using Python, I scrapped data for house prices from websites and converted it into a data frame. For the map, I downloaded a Json file which had the polygon geometry for states, and I created a centroid to facilitate popups at the centroid. Collected historical data on housing prices, income levels, mortgage rates, and other relevant economic indicators by importing from government sources, real estate platforms, and financial institutions.
 
-Cleaning the Data
 
 Analyzing the Data
+I did EDA around median income in each state and compared with influencing factors affecting savings for down payment and mortgage payments. 
 
 
 Visualizing the Data
@@ -46,4 +44,8 @@ Web scraping
   * www.usnews.com
   * www.edweek.org
 
-Conclusion
+Conclusion:
+         The chances for buying houses are increasing currently. With the in Federal Rate, the tendency towards buying houses is increasing. Based on the chart below, with the analysis over a period of 2014 -2023, this is evident.
+ 
+       
+
