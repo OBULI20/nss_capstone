@@ -4,12 +4,12 @@
 
 
 ### Table of Contents
-#### Overview **
-#### Data Question **
-#### Methodology **
-#### Technologies **
-#### Data Sources **
-####  Conclusion **
+#### Overview 
+#### Data Question 
+#### Methodology 
+#### Technologies 
+#### Data Sources
+####  Conclusion 
 
 ### Overview
   The primary objective of this project is to analyze the effects of rising housing prices on the ability of consumers to afford homeownership. It will explore the relationship between house prices, income levels, mortgage rates, and other economic factors to understand how consumers' purchasing power is affected in different market conditions and US states. I have considered analysis including 2014 to 2023.Key variables include Price-to-Income ratio, Mortgage payment-to-income ratio, household Debt-to-Income ratio and housing affordability Index.
@@ -45,10 +45,10 @@
   * www.edweek.org
 
 ### Conclusion:
-         The chances for buying houses are increasing currently. With the in Federal Rate, the tendency towards buying houses is increasing. Based on the chart below, with the analysis over the period of 2014 -2023, this is evident.
- 
+  The chances for buying houses are increasing currently. With the in Federal Rate, the tendency towards buying houses is increasing. Based on the chart below, with the analysis over the period of 2014 -2023, this is evident.
 
-##Capstone for Nashville Software School Data Analytics Program
-##Completion date: December 2024
+
+## Capstone for Nashville Software School Data Analytics Program
+## Completion date: December 2024
        
 
