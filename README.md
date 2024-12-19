@@ -50,7 +50,7 @@
   * www.edweek.org
 
 ## Conclusion:
-  The chances for buying houses are increasing currently. With the drop in Federal Rate, the tendency towards buying houses is increasing. 
+  The chances for buying houses are increasing recently in many states . With the drop in Federal Rate, is also helping.
 
 ### Capstone for Nashville Software School - Full Time Data Analytics Program
 ### Completion date: December 2024
