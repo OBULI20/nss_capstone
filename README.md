@@ -2,14 +2,18 @@
 
 ### USA Housing market 
 
+### [Visuals Report]( https://app.powerbi.com/view?r=eyJrIjoiZmE2NzZjMjktMTNjYy00ZGU4LWFkN2ItNzBkMjBiYTY3MDgwIiwidCI6IjEwMWRhNTg3LTE4NDMtNGY1Mi04YjhhLTE3YjA2OWM2NmQzMyIsImMiOjJ9)
 
 ## Table of Contents
-- # Overview [Overview] 
-- [Data Question](#Data Question) 
-- [Methodology](#Methodology) 
-- [Technologies](#Technologies) 
-- [Data Sources](#Data Sources)
-- [Conclusion](#Conclusion)
+- [Overview](#Overview)
+- [Data Question](#data-question)
+- [Gathering the Data](#gathering-the-data) 
+- [Analyzing the Data](#analyzing-the-data) 
+- [Visualizing the Data](#visualizing-the-data)
+- [Technologies](#technologies)
+- [Data Sources](#data-sources)
+- [Conclusion](#conclusion)
+- [Report](#report)
 
 ## Overview
   The primary objective of this project is to analyze the effects of rising housing prices on the ability of consumers to afford homeownership. It will explore the relationship between house prices, income levels, mortgage rates, and other economic factors to understand how consumers' purchasing power is affected in different market conditions and US states. I have considered analysis including 2014 to 2023.Key variables include Price-to-Income ratio, Mortgage payment-to-income ratio, household Debt-to-Income ratio and housing affordability Index.
@@ -50,7 +54,6 @@
 ## Report :
   https://app.powerbi.com/view?r=eyJrIjoiZmE2NzZjMjktMTNjYy00ZGU4LWFkN2ItNzBkMjBiYTY3MDgwIiwidCI6IjEwMWRhNTg3LTE4NDMtNGY1Mi04YjhhLTE3YjA2OWM2NmQzMyIsImMiOjJ9
 
-## Capstone for Nashville Software School Data Analytics Program
-## Completion date: December 2024
-       
-
+### Capstone for Nashville Software School Data Analytics Program
+### Completion date: December 2024
+    
