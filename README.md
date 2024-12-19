@@ -39,7 +39,6 @@
   Ms Excel - vlookups, hlookups, maths and statistics
 
 ## Data Sources
-  Web scraping
   * www.stlouisfed.org
   * www.bls.gov
   * www.worldpopulationreview.com
