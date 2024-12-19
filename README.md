@@ -4,7 +4,7 @@
 
 
 ## Table of Contents
-- [Overview] (#Overview) 
+- # Overview [Overview] 
 - [Data Question] (#Data Question) 
 - [Methodology] (#Methodology) 
 - [Technologies] (#Technologies) 
