@@ -5,11 +5,11 @@
 
 ## Table of Contents
 - # Overview [Overview] 
-- [Data Question] (#Data Question) 
-- [Methodology] (#Methodology) 
-- [Technologies] (#Technologies) 
-- [Data Sources] (#Data Sources)
-- [Conclusion] (#Conclusion)
+- [Data Question](#Data Question) 
+- [Methodology](#Methodology) 
+- [Technologies](#Technologies) 
+- [Data Sources](#Data Sources)
+- [Conclusion](#Conclusion)
 
 ## Overview
   The primary objective of this project is to analyze the effects of rising housing prices on the ability of consumers to afford homeownership. It will explore the relationship between house prices, income levels, mortgage rates, and other economic factors to understand how consumers' purchasing power is affected in different market conditions and US states. I have considered analysis including 2014 to 2023.Key variables include Price-to-Income ratio, Mortgage payment-to-income ratio, household Debt-to-Income ratio and housing affordability Index.
