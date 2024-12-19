@@ -50,8 +50,8 @@
   * www.edweek.org
 
 ## Conclusion:
-  The chances for buying houses are increasing recently in many states . With the drop in Federal Rate, is also helping.
 
+  Recently,the chances of buying homes have increased in many states due to a combination of factors, including the recent drop in Federal Reserve interest rates. Lower mortgage rates have made homeownership more affordable, improving accessibility for first-time buyers and those looking to refinance, boosting the housing market.
 ### Capstone for Nashville Software School - Full Time Data Analytics Program
 ### Completion date: December 2024
     
